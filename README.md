@@ -1,7 +1,5 @@
-# FIFA 21 Local FUT — Testing Environment
-
-Local (offline) Ultimate Team runtime for **FIFA 21 PC**, built on the proven
-**FIFA 20 LocalFUT** trust-bridge base.
+# Aurora 21 Local FUT by kevin (antirevival)
+join discord for more info : https://discord.gg/ZqmwmpNUF3
 
 ## Components
 
