@@ -1,0 +1,456 @@
+<Window x:Class="Project21Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Project 21 Launcher"
+        Width="1240"
+        Height="760"
+        MinWidth="1040"
+        MinHeight="650"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="CanResize"
+        Background="{StaticResource PageBackground}"
+        Foreground="{StaticResource PrimaryText}"
+        FontFamily="Segoe UI"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+  <WindowChrome.WindowChrome>
+    <WindowChrome CaptionHeight="42" ResizeBorderThickness="7" CornerRadius="0" GlassFrameThickness="0" />
+  </WindowChrome.WindowChrome>
+
+  <Border BorderBrush="#323238" BorderThickness="1" Background="{StaticResource PageBackground}">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="42" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+
+      <Grid Grid.Row="0" Background="#0D0D10">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="230" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="18,0,0,0">
+          <Border Width="24" Height="24" Background="{StaticResource Accent}" CornerRadius="6">
+            <Image Source="pack://application:,,,/launcherimage.webp" Stretch="UniformToFill" />
+          </Border>
+          <TextBlock Text="PROJECT 21" Margin="10,0,0,0" VerticalAlignment="Center"
+                     FontSize="11" FontWeight="Bold" />
+        </StackPanel>
+
+        <TextBlock Grid.Column="1" Text="LOCAL FUT LAUNCHER" Foreground="#5F5F66"
+                   FontSize="9" FontWeight="SemiBold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <StackPanel Grid.Column="2" Orientation="Horizontal" WindowChrome.IsHitTestVisibleInChrome="True">
+          <Button Style="{StaticResource WindowButtonStyle}" Content="—" FontFamily="Segoe UI" FontSize="13" Click="MinimizeButton_Click" ToolTip="Minimize" />
+          <Button Style="{StaticResource CloseWindowButtonStyle}" Content="×" FontFamily="Segoe UI" FontSize="17" Click="CloseButton_Click" ToolTip="Close" />
+        </StackPanel>
+      </Grid>
+
+      <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="230" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#0D0D10" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="0,1,1,0">
+          <Grid Margin="18,28,18,20">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="*" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+              <TextBlock Text="MAIN MENU" Margin="13,0,0,12" Foreground="#57575E"
+                         FontSize="8" FontWeight="Bold" />
+              <Button x:Name="OverviewNavButton" Style="{StaticResource ActiveNavButtonStyle}" Click="OverviewNavButton_Click">
+                <StackPanel Orientation="Horizontal">
+                  <TextBlock Text="●" Width="25" Foreground="{StaticResource Accent}" FontSize="10" VerticalAlignment="Center" />
+                  <TextBlock Text="Overview" VerticalAlignment="Center" />
+                </StackPanel>
+              </Button>
+              <Button x:Name="CardsNavButton" Style="{StaticResource NavButtonStyle}" Click="CardsNavButton_Click">
+                <StackPanel Orientation="Horizontal">
+                  <TextBlock Text="◇" Width="25" FontSize="15" VerticalAlignment="Center" />
+                  <TextBlock Text="My Cards" VerticalAlignment="Center" />
+                </StackPanel>
+              </Button>
+              <Button x:Name="ServerNavButton" Style="{StaticResource NavButtonStyle}" Click="ServerNavButton_Click">
+                <StackPanel Orientation="Horizontal">
+                  <TextBlock Text="▤" Width="25" FontSize="14" VerticalAlignment="Center" />
+                  <TextBlock Text="Server" VerticalAlignment="Center" />
+                </StackPanel>
+              </Button>
+              <Button x:Name="SettingsNavButton" Style="{StaticResource NavButtonStyle}" Click="SettingsNavButton_Click">
+                <StackPanel Orientation="Horizontal">
+                  <TextBlock Text="⚙" Width="25" FontSize="14" VerticalAlignment="Center" />
+                  <TextBlock Text="Settings" VerticalAlignment="Center" />
+                </StackPanel>
+              </Button>
+            </StackPanel>
+
+            <Border Grid.Row="2" Padding="12" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="10">
+              <StackPanel>
+                <Border Width="60" Margin="0,0,0,10" Padding="6,3" HorizontalAlignment="Left"
+                        Background="#241633" CornerRadius="5">
+                  <TextBlock Text="PRE-ALPHA" Foreground="{StaticResource Accent}" FontSize="7"
+                             FontWeight="Bold" HorizontalAlignment="Center" />
+                </Border>
+                <TextBlock Text="Interface prototype" Foreground="#929299" FontSize="10" />
+                <TextBlock Text="Build 0.1.0" Margin="0,4,0,0" Foreground="#55555B" FontSize="9" />
+              </StackPanel>
+            </Border>
+          </Grid>
+        </Border>
+
+        <ScrollViewer x:Name="OverviewView" Grid.Column="1" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled">
+          <Grid Margin="36,28,36,34">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="22" />
+              <RowDefinition Height="390" />
+              <RowDefinition Height="18" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+              </Grid.ColumnDefinitions>
+              <StackPanel>
+                <TextBlock Text="WELCOME BACK" Foreground="#67676F" FontSize="8" FontWeight="Bold" />
+                <TextBlock Text="Match day starts here." Margin="0,6,0,0" FontSize="24" FontWeight="SemiBold" />
+              </StackPanel>
+              <Border Grid.Column="1" Padding="9,7" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="10">
+                <StackPanel Orientation="Horizontal">
+                  <Border Width="34" Height="34" Background="{StaticResource Accent}" CornerRadius="9">
+                    <TextBlock Text="P" Foreground="{StaticResource AccentDark}" FontWeight="Black"
+                               HorizontalAlignment="Center" VerticalAlignment="Center" />
+                  </Border>
+                  <StackPanel Margin="10,0,18,0" VerticalAlignment="Center">
+                    <TextBlock x:Name="ProfileName" Text="Local Player" FontSize="10" FontWeight="SemiBold" />
+                    <TextBlock x:Name="ProfileClub" Text="Local FC" Margin="0,3,0,0" Foreground="{StaticResource SecondaryText}" FontSize="8" />
+                  </StackPanel>
+                </StackPanel>
+              </Border>
+            </Grid>
+
+            <Border Grid.Row="2" CornerRadius="20" BorderBrush="#34343A" BorderThickness="1" ClipToBounds="True">
+              <Grid Background="#151519">
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="1.3*" />
+                  <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                  <Image Source="pack://application:,,,/launcherimage.webp" Stretch="UniformToFill" Opacity="0.84" />
+                  <Rectangle>
+                    <Rectangle.Fill>
+                      <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                        <GradientStop Color="#FF151519" Offset="0" />
+                        <GradientStop Color="#B3151519" Offset="0.25" />
+                        <GradientStop Color="#00151519" Offset="0.8" />
+                      </LinearGradientBrush>
+                    </Rectangle.Fill>
+                  </Rectangle>
+                  <Canvas IsHitTestVisible="False" Opacity="0.24">
+                    <Rectangle Canvas.Left="190" Canvas.Top="-50" Width="14" Height="520" Fill="{StaticResource Accent}" RenderTransformOrigin="0.5,0.5">
+                      <Rectangle.RenderTransform><RotateTransform Angle="18" /></Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle Canvas.Left="245" Canvas.Top="-80" Width="3" Height="540" Fill="White" RenderTransformOrigin="0.5,0.5">
+                      <Rectangle.RenderTransform><RotateTransform Angle="18" /></Rectangle.RenderTransform>
+                    </Rectangle>
+                  </Canvas>
+                </Grid>
+
+                <StackPanel Grid.ColumnSpan="2" Margin="44,38,0,32" VerticalAlignment="Center" HorizontalAlignment="Left" Width="510">
+                  <Border Padding="10,6" Margin="0,0,0,24" HorizontalAlignment="Left"
+                          Background="#241633" BorderBrush="#6A0DAD" BorderThickness="1" CornerRadius="12">
+                    <StackPanel Orientation="Horizontal">
+                      <Ellipse Width="6" Height="6" Fill="{StaticResource Accent}" Margin="0,0,7,0" />
+                      <TextBlock Text="LOCAL ENVIRONMENT" Foreground="#D8B8F0" FontSize="7" FontWeight="Bold" />
+                    </StackPanel>
+                  </Border>
+                  <TextBlock Text="FIFA 21  •  ULTIMATE TEAM" Foreground="{StaticResource Accent}"
+                             FontSize="9" FontWeight="Bold" />
+                  <TextBlock Text="BUILD YOUR CLUB.&#x0a;OWN THE ERA." Margin="0,9,0,0"
+                             FontFamily="Arial Black" FontSize="43" FontWeight="Black" LineHeight="43" />
+                  <TextBlock Text="A dedicated local environment for preserving and exploring&#x0a;the FIFA 21 Ultimate Team experience."
+                             Margin="0,15,0,0" Foreground="#A4A4AA" FontSize="11" LineHeight="18" />
+                  <StackPanel Orientation="Horizontal" Margin="0,22,0,0">
+                    <Button x:Name="LaunchLocalFutButton" Style="{StaticResource ActionButtonStyle}" Width="166" Content="▶   LAUNCH LOCAL FUT" Click="LaunchLocalFutButton_Click" />
+                    <Button x:Name="OpenGameFolderButton" Style="{StaticResource SecondaryActionButtonStyle}" Width="138" Margin="9,0,0,0" Content="OPEN GAME FOLDER" Click="OpenGameFolderButton_Click" />
+                    <Button x:Name="RestartLocalFutButton" Style="{StaticResource SecondaryActionButtonStyle}" Width="125" Margin="9,0,0,0" Content="RESTART LOCAL FUT" Click="RestartLocalFutButton_Click" />
+                  </StackPanel>
+                  <TextBlock x:Name="RuntimePath" Text="Controls are disabled in this interface prototype." Margin="2,10,0,0"
+                             Foreground="#5E5E65" FontSize="8" />
+                </StackPanel>
+              </Grid>
+            </Border>
+
+            <Grid Grid.Row="4">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.25*" />
+                <ColumnDefinition Width="18" />
+                <ColumnDefinition Width="0.85*" />
+              </Grid.ColumnDefinitions>
+
+              <Border Grid.Column="0" Padding="22" Background="{StaticResource PanelBackground}"
+                      BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="15">
+                <StackPanel>
+                  <Grid Margin="0,0,0,12">
+                    <StackPanel>
+                      <TextBlock Text="SYSTEM" Foreground="#626269" FontSize="7" FontWeight="Bold" />
+                      <TextBlock Text="Environment status" Margin="0,5,0,0" FontSize="14" FontWeight="SemiBold" />
+                    </StackPanel>
+                    <Border HorizontalAlignment="Right" VerticalAlignment="Top" Padding="8,5"
+                            BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="5">
+                      <TextBlock x:Name="EnvironmentStatusBadge" Text="NOT CONNECTED" Foreground="#68686F" FontSize="7" FontWeight="Bold" />
+                    </Border>
+                  </Grid>
+                  <Grid Height="48">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                    <StackPanel VerticalAlignment="Center"><TextBlock Text="Local server" FontSize="10" FontWeight="SemiBold"/><TextBlock Text="Blaze and FUT services" Margin="0,3,0,0" Foreground="#6D6D74" FontSize="8"/></StackPanel>
+                    <TextBlock x:Name="LocalServerState" Grid.Column="1" Text="Offline" Foreground="#73737A" FontSize="8" VerticalAlignment="Center"/>
+                  </Grid>
+                  <Separator Background="{StaticResource SubtleBorder}" />
+                  <Grid Height="48">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                    <StackPanel VerticalAlignment="Center"><TextBlock Text="Game client" FontSize="10" FontWeight="SemiBold"/><TextBlock Text="FIFA 21 PC" Margin="0,3,0,0" Foreground="#6D6D74" FontSize="8"/></StackPanel>
+                    <TextBlock x:Name="GameClientState" Grid.Column="1" Text="Not running" Foreground="#73737A" FontSize="8" VerticalAlignment="Center"/>
+                  </Grid>
+                </StackPanel>
+              </Border>
+
+              <Border Grid.Column="2" Padding="22" Background="{StaticResource PanelBackground}"
+                      BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="15">
+                <Grid>
+                  <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                  <StackPanel>
+                    <TextBlock Text="SESSION" Foreground="#626269" FontSize="7" FontWeight="Bold" />
+                    <TextBlock Text="Recent activity" Margin="0,5,0,0" FontSize="14" FontWeight="SemiBold" />
+                  </StackPanel>
+                  <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Border Width="43" Height="43" Background="#1B2013" BorderBrush="#36401B" BorderThickness="1" CornerRadius="12">
+                      <TextBlock Text="21" Foreground="{StaticResource Accent}" FontSize="10" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <TextBlock Text="No sessions yet" Margin="0,10,0,0" FontSize="9" FontWeight="SemiBold" HorizontalAlignment="Center" />
+                    <TextBlock Text="Local FUT activity will appear here." Margin="0,5,0,0" Foreground="#66666D" FontSize="8" />
+                  </StackPanel>
+                </Grid>
+              </Border>
+            </Grid>
+          </Grid>
+        </ScrollViewer>
+
+        <Grid x:Name="CardsView" Grid.Column="1" Visibility="Collapsed" Margin="36,28,36,34">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="18" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="12" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="14" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="14" />
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+
+          <Grid>
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <StackPanel>
+              <TextBlock Text="CARD LIBRARY" Foreground="{StaticResource Accent}" FontSize="8" FontWeight="Bold" />
+              <TextBlock Text="Give cards to your club" Margin="0,7,0,0" FontSize="26" FontWeight="SemiBold" />
+              <TextBlock Text="Offline tool — close FIFA 21 and stop LocalFUT before granting cards." Margin="0,8,0,0" Foreground="{StaticResource SecondaryText}" FontSize="11" />
+            </StackPanel>
+            <Button x:Name="GrantAllCardsButton" Grid.Column="1" Style="{StaticResource SecondaryActionButtonStyle}" Width="170" Height="38"
+                    VerticalAlignment="Bottom" Content="GIVE EVERY CARD" Click="GrantAllCardsButton_Click" />
+          </Grid>
+
+          <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <TextBox x:Name="CardSearchTextBox" Style="{StaticResource SettingsTextBoxStyle}" Height="40" Padding="13,0"
+                     VerticalContentAlignment="Center" ToolTip="Search by player name or resource ID"
+                     TextChanged="CardSearchTextBox_TextChanged" KeyDown="CardSearchTextBox_KeyDown" />
+            <Button Grid.Column="2" Style="{StaticResource SecondaryActionButtonStyle}" Width="115" Height="40"
+                    Content="REFRESH" Click="RefreshCardsButton_Click" />
+          </Grid>
+
+          <Border Grid.Row="4" Padding="16" Background="{StaticResource PanelBackground}"
+                  BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="12">
+            <Grid>
+              <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="18"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+              <StackPanel>
+                <TextBlock Text="CLUB CUSTOMISATION" Foreground="{StaticResource Accent}" FontSize="8" FontWeight="Bold" />
+                <TextBlock Text="Grant all verified customisation assets" Margin="0,5,0,0" FontSize="13" FontWeight="SemiBold" />
+                <TextBlock Text="Adds all bundled kits, stadium choices, the verified badge and ball. LocalFUT must be running. Songs, tifos and other vanity categories remain pending native catalog recovery."
+                           Margin="0,5,0,0" Foreground="{StaticResource SecondaryText}" FontSize="9" TextWrapping="Wrap" MaxWidth="720" />
+                <TextBlock x:Name="CustomisationGrantStatusText" Text="Ready" Margin="0,6,0,0" FontSize="9" FontWeight="SemiBold" />
+              </StackPanel>
+              <Button x:Name="GrantAllCustomisationButton" Grid.Column="2" Style="{StaticResource SecondaryActionButtonStyle}"
+                      Width="210" Height="40" VerticalAlignment="Center" Content="GRANT ALL CUSTOMISATION"
+                      Click="GrantAllCustomisationButton_Click" />
+            </Grid>
+          </Border>
+
+          <Border Grid.Row="6" Background="{StaticResource PanelBackground}" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="12" Padding="1">
+            <DataGrid x:Name="CardCatalogGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single"
+                      CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" Background="Transparent" BorderThickness="0" Foreground="{StaticResource PrimaryText}"
+                      RowBackground="#111115" AlternatingRowBackground="#151519" HorizontalGridLinesBrush="#29292F"
+                      SelectionChanged="CardCatalogGrid_SelectionChanged">
+              <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader">
+                  <Setter Property="Background" Value="#18181D"/><Setter Property="Foreground" Value="#83838B"/>
+                  <Setter Property="FontSize" Value="9"/><Setter Property="FontWeight" Value="Bold"/><Setter Property="Padding" Value="12,9"/>
+                  <Setter Property="BorderBrush" Value="#29292F"/><Setter Property="BorderThickness" Value="0,0,1,1"/>
+                </Style>
+                <Style TargetType="DataGridCell">
+                  <Setter Property="Padding" Value="12,7"/><Setter Property="BorderThickness" Value="0"/>
+                  <Setter Property="Foreground" Value="{StaticResource PrimaryText}"/>
+                </Style>
+              </DataGrid.Resources>
+              <DataGrid.Columns>
+                <DataGridTextColumn Header="PLAYER" Binding="{Binding Name}" Width="*" MinWidth="180" />
+                <DataGridTextColumn Header="OVR" Binding="{Binding Rating}" Width="65" />
+                <DataGridTextColumn Header="POSITION" Binding="{Binding Position}" Width="85" />
+                <DataGridTextColumn Header="PROMOTION / RARITY" Binding="{Binding Promotion}" Width="190" />
+                <DataGridTextColumn Header="RESOURCE ID" Binding="{Binding ResourceId}" Width="130" />
+              </DataGrid.Columns>
+            </DataGrid>
+          </Border>
+
+          <Grid Grid.Row="8">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <StackPanel VerticalAlignment="Center">
+              <TextBlock x:Name="CardResultsText" Text="Open My Cards to load the catalog." Foreground="#77777F" FontSize="9" />
+              <TextBlock x:Name="CardGrantStatusText" Text="Ready" Margin="0,5,0,0" FontSize="11" FontWeight="SemiBold" />
+            </StackPanel>
+            <Button x:Name="GrantSelectedCardButton" Grid.Column="1" Style="{StaticResource SecondaryActionButtonStyle}" Width="170" Height="40"
+                    Content="GIVE SELECTED CARD" IsEnabled="False" Click="GrantSelectedCardButton_Click" />
+          </Grid>
+        </Grid>
+
+        <Grid x:Name="ServerView" Grid.Column="1" Visibility="Collapsed" Margin="36,28,36,34">
+          <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="20"/><RowDefinition Height="Auto"/><RowDefinition Height="18"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+          <Grid>
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <StackPanel>
+              <TextBlock Text="LOCAL RUNTIME" Foreground="{StaticResource Accent}" FontSize="8" FontWeight="Bold" />
+              <TextBlock Text="Server control" Margin="0,7,0,0" FontSize="26" FontWeight="SemiBold" />
+              <TextBlock Text="Start the complete FIFA session or run the local services by themselves." Margin="0,8,0,0" Foreground="{StaticResource SecondaryText}" FontSize="11" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Bottom">
+              <Button x:Name="StartServicesButton" Style="{StaticResource SecondaryActionButtonStyle}" Width="145" Content="START SERVICES" Click="StartServicesButton_Click" />
+              <Button x:Name="StopServicesButton" Style="{StaticResource SecondaryActionButtonStyle}" Width="135" Margin="9,0,0,0" Content="STOP ALL" Click="StopServicesButton_Click" />
+            </StackPanel>
+          </Grid>
+
+          <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+            <Border Padding="18" Background="{StaticResource PanelBackground}" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="12">
+              <StackPanel><TextBlock Text="SERVER" Foreground="#66666D" FontSize="8" FontWeight="Bold"/><TextBlock x:Name="ServerPageServerState" Text="Not started" Margin="0,7,0,0" FontSize="12" FontWeight="SemiBold" TextWrapping="Wrap"/></StackPanel>
+            </Border>
+            <Border Grid.Column="2" Padding="18" Background="{StaticResource PanelBackground}" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="12">
+              <StackPanel><TextBlock Text="GAME" Foreground="#66666D" FontSize="8" FontWeight="Bold"/><TextBlock x:Name="ServerPageGameState" Text="Not running" Margin="0,7,0,0" FontSize="12" FontWeight="SemiBold" TextWrapping="Wrap"/></StackPanel>
+            </Border>
+            <Border Grid.Column="4" Padding="18" Background="{StaticResource PanelBackground}" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="12">
+              <StackPanel><TextBlock Text="CONNECTION" Foreground="#66666D" FontSize="8" FontWeight="Bold"/><TextBlock x:Name="ServerPageConnectionState" Text="Inactive" Margin="0,7,0,0" FontSize="12" FontWeight="SemiBold" TextWrapping="Wrap"/></StackPanel>
+            </Border>
+          </Grid>
+
+          <Border Grid.Row="4" Padding="20" Background="#0D0D10" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="14">
+            <Grid>
+              <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="12"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <StackPanel><TextBlock Text="WORKFLOW OUTPUT" Foreground="#66666D" FontSize="8" FontWeight="Bold"/><TextBlock x:Name="WorkflowStatusText" Text="Ready" Margin="0,5,0,0" FontSize="11" FontWeight="SemiBold"/></StackPanel>
+                <Button Grid.Column="1" Style="{StaticResource SettingsButtonStyle}" Height="34" Content="OPEN LOGS" Click="OpenLogsButton_Click" />
+              </Grid>
+              <TextBox x:Name="WorkflowLogTextBox" Grid.Row="2" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                       Background="Transparent" BorderThickness="0" Foreground="#9B9BA2" FontFamily="Consolas" FontSize="10" Padding="0" />
+            </Grid>
+          </Border>
+        </Grid>
+
+        <ScrollViewer x:Name="SettingsView" Grid.Column="1" Visibility="Collapsed" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled">
+          <Grid Margin="36,32,36,34" MaxWidth="900" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="24" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+              <TextBlock Text="CONFIGURATION" Foreground="{StaticResource Accent}" FontSize="8" FontWeight="Bold" />
+              <TextBlock Text="Launcher settings" Margin="0,7,0,0" FontSize="26" FontWeight="SemiBold" />
+              <TextBlock Text="Choose the FIFA 21 executable and the LocalFUT runtime source used by the launch scripts."
+                         Margin="0,9,0,0" Foreground="{StaticResource SecondaryText}" FontSize="11" />
+            </StackPanel>
+
+            <Border Grid.Row="2" Padding="28" Background="{StaticResource PanelBackground}" BorderBrush="{StaticResource SubtleBorder}" BorderThickness="1" CornerRadius="16">
+              <StackPanel>
+                <TextBlock Text="GAME LOCATION" Foreground="#77777F" FontSize="8" FontWeight="Bold" />
+                <TextBlock Text="FIFA21.exe" Margin="0,6,0,0" FontSize="14" FontWeight="SemiBold" />
+                <TextBlock Text="Select the main FIFA 21 executable, not the configuration launcher."
+                           Margin="0,5,0,12" Foreground="#77777F" FontSize="9" />
+                <Grid>
+                  <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="10"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                  <TextBox x:Name="GamePathTextBox" Style="{StaticResource SettingsTextBoxStyle}" />
+                  <Button Grid.Column="2" Style="{StaticResource SettingsButtonStyle}" Content="BROWSE…" Click="BrowseGameButton_Click" />
+                </Grid>
+
+                <Separator Margin="0,24,0,24" Background="{StaticResource SubtleBorder}" />
+
+                <TextBlock Text="RUNTIME SOURCE" Foreground="#77777F" FontSize="8" FontWeight="Bold" />
+                <TextBlock Text="LocalFUT source folder" Margin="0,6,0,0" FontSize="14" FontWeight="SemiBold" />
+                <TextBlock Text="This folder must contain localfut21/server.py and redirector_tls.py."
+                           Margin="0,5,0,12" Foreground="#77777F" FontSize="9" />
+                <Grid>
+                  <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="10"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                  <TextBox x:Name="RuntimeSourceTextBox" Style="{StaticResource SettingsTextBoxStyle}" />
+                  <Button Grid.Column="2" Style="{StaticResource SettingsButtonStyle}" Content="BROWSE…" Click="BrowseRuntimeButton_Click" />
+                </Grid>
+
+                <Separator Margin="0,24,0,24" Background="{StaticResource SubtleBorder}" />
+
+                <TextBlock Text="LOCAL CLUB" Foreground="#77777F" FontSize="8" FontWeight="Bold" />
+                <TextBlock Text="Club identity" Margin="0,6,0,0" FontSize="14" FontWeight="SemiBold" />
+                <TextBlock Text="Used by your local FUT team after the server is restarted."
+                           Margin="0,5,0,12" Foreground="#77777F" FontSize="9" />
+                <Grid>
+                  <Grid.ColumnDefinitions><ColumnDefinition Width="2*"/><ColumnDefinition Width="18"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                  <StackPanel>
+                    <TextBlock Text="CLUB NAME (1–15 CHARACTERS)" Foreground="#77777F" FontSize="8" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBox x:Name="ClubNameTextBox" Style="{StaticResource SettingsTextBoxStyle}" MaxLength="15" />
+                  </StackPanel>
+                  <StackPanel Grid.Column="2">
+                    <TextBlock Text="ABBREVIATION (3)" Foreground="#77777F" FontSize="8" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBox x:Name="ClubAbbreviationTextBox" Style="{StaticResource SettingsTextBoxStyle}" MaxLength="3" CharacterCasing="Upper" />
+                  </StackPanel>
+                </Grid>
+
+                <Grid Margin="0,25,0,0">
+                  <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                  <StackPanel VerticalAlignment="Center">
+                    <TextBlock x:Name="SettingsStatusText" Text="Paths and club identity are saved per Windows user." Foreground="#707077" FontSize="9" />
+                    <TextBlock x:Name="SettingsFileText" Margin="0,4,0,0" Foreground="#4F4F55" FontSize="8" TextTrimming="CharacterEllipsis" />
+                  </StackPanel>
+                  <Button Grid.Column="1" Width="150" Height="46" Content="SAVE CHANGES" Foreground="{StaticResource AccentDark}" Background="{StaticResource Accent}"
+                          BorderThickness="0" FontSize="10" FontWeight="Bold" Cursor="Hand" Click="SaveSettingsButton_Click" />
+                </Grid>
+              </StackPanel>
+            </Border>
+          </Grid>
+        </ScrollViewer>
+      </Grid>
+    </Grid>
+  </Border>
+</Window>

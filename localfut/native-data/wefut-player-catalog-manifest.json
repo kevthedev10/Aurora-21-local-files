@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "description": "WeFUT FIFA 21 player database and per-card detail metadata",
+    "databaseUrl": "https://wefut.com/player-database/21",
+    "retrievedAt": "2026-08-31T02:28:29.846Z"
+  },
+  "resourceIds": {
+    "exact": "Base IDs and IDs exposed by WeFUT player-avatar metadata",
+    "fallback": "Locally assigned revision IDs preserve the FIFA base-ID bits and are explicitly counted below",
+    "counts": {
+      "local-revision-fallback": 6347,
+      "wefut-base-id": 14556,
+      "wefut-custom-avatar": 1394,
+      "wefut-native-avatar": 203
+    },
+    "fallbackBaseCards": 3346,
+    "fallbackSpecialCards": 3001,
+    "detailErrors": 7
+  },
+  "counts": {
+    "wefutRows": 22500,
+    "catalogCards": 22500,
+    "duplicateDefinitions": 0,
+    "baseCards": 17902,
+    "specialCards": 4598,
+    "rarities": 61
+  },
+  "outputs": {
+    "runtimeCatalog": {
+      "path": "localfut/runtime-source/localfut21/players.json",
+      "byteLength": 40691212,
+      "sha256": "A254CF2CA27554F8DF15E976DB9CB0F08E258A155CA8C0F747EC5657794CC8E1"
+    },
+    "rarities": {
+      "path": "localfut/native-data/wefut-fifa21-rarities.json",
+      "byteLength": 8583,
+      "sha256": "FA299D2B8A3389D40CED05CB8756A19D1A8F9CA9D0374F862ADEE813D3463F3E"
+    },
+    "runtimeRarityTunables": {
+      "path": "localfut/runtime-source/localfut21/contentfifa/fut/items/images/backgrounds/itemBGs/futitemraritytunables.json",
+      "byteLength": 77502,
+      "sha256": "D995BAEA7E193DF7C0CCC33911B2A4DAAB284D5CC4A4A2BFDC87290EC80A7832",
+      "source": "https://fifa21.content.easports.com/fifa/fltOnlineAssets/21D4F1AC-91A3-458D-A64E-895AA6D871D1/2021/fut/items/images/backgrounds/itemBGs/futitemraritytunables.json"
+    }
+  },
+  "generator": "tools/fifa21-data-miner/import-wefut-player-catalog.mjs"
+}

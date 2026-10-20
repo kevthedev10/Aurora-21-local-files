@@ -1,0 +1,82 @@
+[2026-09-01 02:08:43] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:08:43] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:08:43] [DRAFT] INFO — ENDPOINT GET /ut/game/fifa21/squad/mode/draft/state — draftId= payload={}
+[2026-09-01 02:08:43] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:08:43] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:08:43] [DRAFT] INFO — NATIVE GET /squad/mode/draft/state — response state=DRAFTENTRY draftId=0 keys=coinCost,draftChampion,draftMatchSuspended,draftMode,draftSquad,draftState,draftSummary,draftToken,draftsCompleted,fifaPointsCost,numDraftTokens,playerList,positions,purchaseMethod,rewardOptionList,rounds,roundsInfo,squadData,squadSlots,squadState,teamChemistry,userHaveCoins,userHaveDraftTokens,userHaveFifaPoints
+[2026-09-01 02:08:43] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:08:43] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:08:43] [DRAFT] INFO — ENDPOINT GET /ut/game/fifa21/draft/squad — draftId= payload={}
+[2026-09-01 02:08:43] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:08:43] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:08:43] [DRAFT] DEBUG — _calculate_chemistry() — no starters chemistry=0 formation=442
+[2026-09-01 02:08:43] [DRAFT] INFO — draft_squad_for_client() — draftId=0 active=False starters=0 bench=0 reserves=0 chemistry=0 rating=0
+[2026-09-01 02:08:43] [DRAFT] INFO — DRAFT SQUAD RESPONSE — path=/ut/game/fifa21/draft/squad status=200 draftId=0 active=False starters=0 bench=0 reserves=0 chemistry=0 rating=0
+[2026-09-01 02:09:49] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:09:56] [DRAFT] DEBUG — BOOT: POST /ut/auth requested
+[2026-09-01 02:09:56] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:09:57] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:09:57] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:09:57] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:11:02] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:11:02] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/user/accountinfo requested
+[2026-09-01 02:11:02] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:11:02] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:11:02] [DRAFT] DEBUG — clientdata/userHubData returned entries=[{'key': 0, 'value': 13}, {'key': 1, 'value': 12}]
+[2026-09-01 02:15:17] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:15:17] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:15:17] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:19:14] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:19:21] [DRAFT] DEBUG — BOOT: POST /ut/auth requested
+[2026-09-01 02:19:21] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:19:21] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:19:21] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:19:21] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:20:51] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:20:51] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/user/accountinfo requested
+[2026-09-01 02:20:51] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:20:51] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:20:51] [DRAFT] DEBUG — clientdata/userHubData returned entries=[{'key': 0, 'value': 13}, {'key': 1, 'value': 12}]
+[2026-09-01 02:22:56] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:22:56] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/user/accountinfo requested
+[2026-09-01 02:22:56] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:22:56] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:22:57] [DRAFT] DEBUG — clientdata/userHubData returned entries=[{'key': 0, 'value': 13}, {'key': 1, 'value': 12}]
+[2026-09-01 02:24:02] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:24:04] [DRAFT] DEBUG — BOOT: POST /ut/auth requested
+[2026-09-01 02:24:04] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:24:05] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:24:05] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:24:05] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:30:08] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/cfgrouting.xml requested
+[2026-09-01 02:30:09] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:30:09] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:30:09] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:33:32] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:33:35] [DRAFT] DEBUG — BOOT: POST /ut/auth requested
+[2026-09-01 02:33:35] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:33:35] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:33:35] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:33:35] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:33:52] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/cfgrouting.xml requested
+[2026-09-01 02:33:53] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:33:53] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:33:53] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:36:43] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/cfgrouting.xml requested
+[2026-09-01 02:37:05] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:37:09] [DRAFT] DEBUG — BOOT: POST /ut/auth requested
+[2026-09-01 02:37:09] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:37:09] [DRAFT] DEBUG — get_draft() called
+[2026-09-01 02:37:09] [DRAFT] INFO — get_draft() — no active draft found, returning default
+[2026-09-01 02:37:09] [DRAFT] WARNING — UNKNOWN ENDPOINT: GET /fut/playerheads/g4/fut2dheads.big (draftId=)
+[2026-09-01 02:38:24] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:38:24] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/user/accountinfo requested
+[2026-09-01 02:38:24] [DRAFT] DEBUG — BOOT: accountinfo requested; credits=70000000
+[2026-09-01 02:38:24] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:38:24] [DRAFT] DEBUG — clientdata/userHubData returned entries=[{'key': 0, 'value': 13}, {'key': 1, 'value': 12}]
+[2026-09-01 02:41:35] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:41:35] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:41:35] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/cfgrouting.xml requested
+[2026-09-01 02:41:56] [DRAFT] DEBUG — BOOT: GET /ut/auth requested
+[2026-09-01 02:41:56] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/settings requested
+[2026-09-01 02:41:56] [DRAFT] DEBUG — BOOT: GET /ut/game/fifa21/cfgrouting.xml requested

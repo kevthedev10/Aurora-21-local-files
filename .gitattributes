@@ -1,0 +1,7 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.service text eol=lf
+*.service.in text eol=lf

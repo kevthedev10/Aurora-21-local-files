@@ -1,0 +1,68 @@
+{
+  "protocol": "fire2",
+  "host": "127.0.0.1",
+  "port": 44321,
+  "stages": [
+    {
+      "name": "Util.PreAuth",
+      "component": 9,
+      "command": 7,
+      "expected_tags": [["CONF", "group"], ["QOSS", "group"]]
+    },
+    {
+      "name": "Util.Ping",
+      "component": 9,
+      "command": 2,
+      "expected_tags": [["STIM", "varint"]]
+    },
+    {
+      "name": "Util.PostAuth",
+      "component": 9,
+      "command": 8,
+      "expected_tags": []
+    },
+    {
+      "name": "Util.GetUserOptions",
+      "component": 9,
+      "command": 12,
+      "expected_tags": [["SMAP", "map"]]
+    },
+    {
+      "name": "FIFA35.LoginSession",
+      "component": 35,
+      "command": 10,
+      "expected_tags": [["DSNM", "string"], ["PID", "varint"]]
+    },
+    {
+      "name": "Ticker.GetSettings",
+      "component": 2249,
+      "command": 1,
+      "expected_tags": [["LSST", "list"]]
+    },
+    {
+      "name": "Ticker.GetGroups",
+      "component": 2249,
+      "command": 2,
+      "expected_tags": [["LGRP", "list"]]
+    },
+    {
+      "name": "Authentication.Entitlements",
+      "component": 1,
+      "command": 32,
+      "expected_tags": [["NLST", "list"]]
+    },
+    {
+      "name": "Authentication.LocalLogin",
+      "component": 1,
+      "command": 40,
+      "expected_tags": [["SESS", "group"]]
+    },
+    {
+      "name": "Authentication.GetAuthToken",
+      "component": 1,
+      "command": 36,
+      "expected_tags": [["AUTH", "string"]]
+    }
+  ]
+}
+

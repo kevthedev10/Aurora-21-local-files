@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <FmtRoot Condition="'$(FmtRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\FrostbiteModdingTool</FmtRoot>
+    <FmtOutput>$(FmtRoot)\FrostbiteModdingUI\bin\Debug\net7.0-windows</FmtOutput>
+    <OutputPath>$(FmtOutput)</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Permissions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FifaLibrary">
+      <HintPath>$(FmtOutput)\FifaLibrary.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="FrostySdk">
+      <HintPath>$(FmtOutput)\FrostySdk.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="ValidateFmtBuild" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(FmtOutput)\FrostySdk.dll')"
+           Text="Frostbite Modding Tool is not built. Clone it to $(FmtRoot), restore it, and build FrostbiteModdingUI.sln in Debug configuration." />
+    <Error Condition="!Exists('$(FmtOutput)\Plugins\FIFA21Plugin.dll')"
+           Text="The built FIFA 21 Frostbite plugin is missing from $(FmtOutput)\Plugins." />
+  </Target>
+</Project>

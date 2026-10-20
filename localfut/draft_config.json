@@ -1,0 +1,74 @@
+{
+    "entry_fee": 15000,
+    "max_wins": 4,
+    "max_losses": 1,
+    "formations": [
+        "433", "442", "4231", "41212", "352",
+        "541", "343", "4321", "4222", "4141"
+    ],
+    "formation_slots": {
+        "433": ["GK", "LB", "CB", "CB", "RB", "CM", "CM", "CAM", "LW", "ST", "RW"],
+        "442": ["GK", "LB", "CB", "CB", "RB", "LM", "CM", "CM", "RM", "ST", "ST"],
+        "4231": ["GK", "LB", "CB", "CB", "RB", "CDM", "CDM", "LM", "CAM", "RM", "ST"],
+        "41212": ["GK", "LB", "CB", "CB", "RB", "CDM", "LM", "CM", "RM", "ST", "ST"],
+        "352": ["GK", "CB", "CB", "CB", "LM", "CDM", "CM", "CM", "RM", "ST", "ST"],
+        "541": ["GK", "LB", "CB", "CB", "CB", "RB", "LM", "CM", "CM", "RM", "ST"],
+        "343": ["GK", "LB", "CB", "RB", "LM", "CM", "CM", "RM", "LW", "ST", "RW"],
+        "4321": ["GK", "LB", "CB", "CB", "RB", "CM", "CM", "CM", "CF", "CF", "ST"],
+        "4222": ["GK", "LB", "CB", "CB", "RB", "CDM", "CDM", "CAM", "CAM", "ST", "ST"],
+        "4141": ["GK", "LB", "CB", "CB", "RB", "CDM", "LM", "CM", "CM", "RM", "ST"]
+    },
+    "pool_rules": {
+        "starter_min_rating": 75,
+        "starter_max_rating": 99,
+        "bench_min_rating": 65,
+        "reserve_min_rating": 60,
+        "options_per_pick": 5,
+        "max_picks": 23,
+        "allow_duplicate_resource_ids": false
+    },
+    "rewards": {
+        "4_wins": {
+            "packs": [3, 3],
+            "coins": 30000,
+            "xp": 500,
+            "description": "4 Wins - Best Rewards"
+        },
+        "3_wins": {
+            "packs": [3],
+            "coins": 15000,
+            "xp": 300,
+            "description": "3 Wins - Good Rewards"
+        },
+        "2_wins": {
+            "packs": [2],
+            "coins": 10000,
+            "xp": 200,
+            "description": "2 Wins - Decent Rewards"
+        },
+        "1_win": {
+            "packs": [1],
+            "coins": 5000,
+            "xp": 100,
+            "description": "1 Win - Consolation"
+        },
+        "0_wins": {
+            "packs": [1],
+            "coins": 2000,
+            "xp": 50,
+            "description": "0 Wins - Minimal"
+        }
+    },
+    "match_difficulties": [
+        "amateur", "semi_pro", "professional", "world_class", "legendary", "ultimate"
+    ],
+    "match_simulation": {
+        "possession_base": 50,
+        "rating_weight": 0.7,
+        "chemistry_weight": 0.3,
+        "difficulty_ratings": {
+            "amateur": 65, "semi_pro": 72, "professional": 78,
+            "world_class": 84, "legendary": 88, "ultimate": 92
+        }
+    }
+}

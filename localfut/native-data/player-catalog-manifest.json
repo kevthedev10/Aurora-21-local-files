@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "description": "FIFA 21 native T3DB tables; no website data",
+    "archive": {
+      "name": "Project-21-V2-main.zip",
+      "byteLength": 26441625,
+      "sha256": "0308D689F0B404FCE95763830542A7D603D71D95C508E873849BF172BC976BBD"
+    },
+    "inputs": [
+      {
+        "path": "db/cards_ng_db.db",
+        "byteLength": 6984872,
+        "sha256": "4458D98861C3732CA4ED45816DEF992C2E75E385AFBBD5288CC5FBCF012139EF"
+      },
+      {
+        "path": "db/cards_ng_db-meta.xml",
+        "byteLength": 519377,
+        "sha256": "805ABE4FDACDC33BF301F50DBDB61698DADB284BE9A4303C60D2F5B88A995318"
+      }
+    ],
+    "tables": {
+      "players": {
+        "rows": 19822,
+        "byteLength": 63151989,
+        "sha256": "5BF399731C5CF5BEB1702E1AD55250E1464790F5C7355542E56371CF4985378A"
+      },
+      "playernames": {
+        "rows": 26683,
+        "byteLength": 2319117,
+        "sha256": "D282E948A1C53325A8E6D7F7B19B49A11830B7AF9AF7B562240E492514235F48"
+      },
+      "playerattributesmapping": {
+        "rows": 33,
+        "byteLength": 11216,
+        "sha256": "8B57A90D3296E9ABA2970C3BA5D56B288E0343607E3B11BD3EFF1A9B4879B0FD"
+      },
+      "teamplayerlinks": {
+        "rows": 20302,
+        "byteLength": 8312367,
+        "sha256": "D7EA615D4EF221839B1095863A24340BF72335D0A2DE30671A7FB03BB74E91B0"
+      },
+      "leagueteamlinks": {
+        "rows": 1341,
+        "byteLength": 1095716,
+        "sha256": "C79102B957B6CB281C2FE5212BD8713CB77D6317A490A2097102DF85B48EC9C0"
+      },
+      "teams": {
+        "rows": 1343,
+        "byteLength": 3783305,
+        "sha256": "880104DD15F0AFE7DF3323E64021A5C9BB51BAD3AE742C65E45B005E244760DC"
+      },
+      "leagues": {
+        "rows": 54,
+        "byteLength": 18609,
+        "sha256": "B077FF7A6385678CB5409108E885080CAFACD1A171980C5D8DD4E04AF1295D1A"
+      },
+      "nations": {
+        "rows": 221,
+        "byteLength": 42992,
+        "sha256": "7FA47AE79C2BB80F1378C37F83513204580597D191DC3A351FEFE593AAA06A6F"
+      }
+    }
+  },
+  "rules": {
+    "baseResourceId": "players.playerid",
+    "displayName": "common name, then first plus last name, then jersey name",
+    "affiliation": "exclude league 78; prefer teamplayerlinks.position != 29",
+    "cardFace": "playerattributesmapping weights over the native 33-attribute order",
+    "rarity": "base/common only; promotional revisions are not inferred"
+  },
+  "counts": {
+    "nativePlayers": 19822,
+    "catalogPlayers": 19075,
+    "quarantinedPlayers": 747,
+    "quarantineReasons": {
+      "no decodable native display name": 95,
+      "no native club/league affiliation": 655
+    }
+  },
+  "outputs": {
+    "runtimeCatalog": {
+      "path": "localfut/runtime-source/localfut21/players.json",
+      "players": 19075,
+      "byteLength": 6250039,
+      "sha256": "BABD83B277D185C38D0C6E63B1CA74E1C0970F0E7A6986CF71B2E98CD080F610"
+    },
+    "quarantine": {
+      "path": "localfut/native-data/player-catalog-quarantine.json",
+      "players": 747,
+      "byteLength": 227312,
+      "sha256": "550B4E95F991AE7E05EFAB3CC050618CCDE7740655C3B7112EDCF0F1E39A3CE6"
+    }
+  },
+  "generator": "tools/fifa21-data-miner/build-player-catalog.mjs"
+}

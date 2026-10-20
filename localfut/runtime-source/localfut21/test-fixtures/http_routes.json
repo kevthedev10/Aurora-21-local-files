@@ -1,0 +1,26 @@
+{
+  "base_url": "http://127.0.0.1:8090",
+  "routes": [
+    {"name": "auth", "path": "/ut/auth", "assert": {"key": "protocol", "equals": "http"}},
+    {"name": "shards", "path": "/ut/shards", "assert": {"key": "shardInfo", "nonempty": true}},
+    {"name": "accountinfo", "path": "/ut/game/fifa21/user/accountinfo", "assert": {"key": "userAccountInfo"}},
+    {"name": "settings", "path": "/ut/game/fifa21/settings", "assert": {"key": "configs"}},
+    {"name": "user", "path": "/ut/game/fifa21/user", "assert": {"key": "clubPlayers"}},
+    {"name": "userdata", "path": "/ut/game/fifa21/userdata", "assert": {"key": "onlineELORating"}},
+    {"name": "pilesize", "path": "/ut/game/fifa21/clientdata/pilesize", "assert": {"key": "entries"}},
+    {"name": "userhubdata", "path": "/ut/game/fifa21/clientdata/userhubdata", "assert": {"key": "entries"}},
+    {"name": "loan_players", "path": "/ut/game/fifa21/loan/players", "assert": {"key": "loans", "nonempty": true}},
+    {"name": "active_squad", "path": "/ut/game/fifa21/squad/active", "assert": {"key": "players"}},
+    {"name": "eventfeed", "path": "/ut/game/fifa21/eventfeed", "assert": {"key": "event"}},
+    {"name": "hub", "path": "/ut/game/fifa21/hub", "assert": {"key": "squad"}},
+    {"name": "clubuser", "path": "/ut/game/fifa21/clubuser", "assert": {"key": "user"}},
+    {"name": "leaderboards", "path": "/ut/game/fifa21/leaderboards/options", "assert": {"type": "mapping"}},
+    {"name": "club_stats", "path": "/ut/game/fifa21/club/stats/summary", "assert": {"type": "mapping"}},
+    {"name": "club", "path": "/ut/game/fifa21/club?count=20", "assert": {"key": "itemData"}},
+    {"name": "credits", "path": "/ut/game/fifa21/user/credits", "assert": {"key": "currencies"}},
+    {"name": "store", "path": "/ut/game/fifa21/store/purchasegroup/all", "assert": {"key": "purchase"}},
+    {"name": "purchased_items", "path": "/ut/game/fifa21/purchased/items", "assert": {"type": "mapping"}},
+    {"name": "tradepile", "path": "/ut/game/fifa21/tradepile", "assert": {"type": "mapping"}}
+  ]
+}
+

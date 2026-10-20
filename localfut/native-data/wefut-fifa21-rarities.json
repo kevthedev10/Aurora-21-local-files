@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "source": "https://wefut.com/player-database/21",
+  "rarities": [
+    {
+      "id": 0,
+      "name": "Non-Rare Gold",
+      "className": "gold",
+      "cardStyle": "gold0",
+      "cards": 11425
+    },
+    {
+      "id": 1,
+      "name": "Rare Gold",
+      "className": "goldrare",
+      "cardStyle": "gold1",
+      "cards": 6477
+    },
+    {
+      "id": 3,
+      "name": "Team of the Week",
+      "className": "goldif",
+      "cardStyle": "gold3",
+      "cards": 807
+    },
+    {
+      "id": 4,
+      "name": "Hero",
+      "className": "totyicon",
+      "cardStyle": "gold4",
+      "cards": 15
+    },
+    {
+      "id": 5,
+      "name": "Team of the Year",
+      "className": "toty",
+      "cardStyle": "gold5",
+      "cards": 12
+    },
+    {
+      "id": 6,
+      "name": "Record Breaker",
+      "className": "special",
+      "cardStyle": "gold6",
+      "cards": 12
+    },
+    {
+      "id": 8,
+      "name": "MOTM",
+      "className": "motm",
+      "cardStyle": "gold8",
+      "cards": 62
+    },
+    {
+      "id": 9,
+      "name": "FUTTIES",
+      "className": "",
+      "cardStyle": "gold9",
+      "cards": 26
+    },
+    {
+      "id": 11,
+      "name": "Team of the Season",
+      "className": "goldblue",
+      "cardStyle": "gold11",
+      "cards": 212
+    },
+    {
+      "id": 12,
+      "name": "Icon",
+      "className": "legend",
+      "cardStyle": "gold12",
+      "cards": 303
+    },
+    {
+      "id": 16,
+      "name": "FUTTIES Winner",
+      "className": "pink",
+      "cardStyle": "gold16",
+      "cards": 56
+    },
+    {
+      "id": 21,
+      "name": "Ones to Watch",
+      "className": "originhero",
+      "cardStyle": "gold21",
+      "cards": 28
+    },
+    {
+      "id": 22,
+      "name": "Rulebreakers",
+      "className": "halloween",
+      "cardStyle": "gold22",
+      "cards": 31
+    },
+    {
+      "id": 25,
+      "name": "Premium SBC Reward",
+      "className": "premiumsbc",
+      "cardStyle": "gold25",
+      "cards": 9
+    },
+    {
+      "id": 30,
+      "name": "FUT Birthday",
+      "className": "birthday",
+      "cardStyle": "gold30",
+      "cards": 42
+    },
+    {
+      "id": 32,
+      "name": "FUT Freeze",
+      "className": "futmas",
+      "cardStyle": "gold32",
+      "cards": 34
+    },
+    {
+      "id": 33,
+      "name": "Libertadores TOTGS",
+      "className": "eumotm",
+      "cardStyle": "gold33",
+      "cards": 11
+    },
+    {
+      "id": 34,
+      "name": "Sudamericana TOTGS",
+      "className": "purple",
+      "cardStyle": "silver34",
+      "cards": 1
+    },
+    {
+      "id": 37,
+      "name": "Libertadores Flashback",
+      "className": "whitepurple",
+      "cardStyle": "gold37",
+      "cards": 2
+    },
+    {
+      "id": 42,
+      "name": "Bundesliga POTM",
+      "className": "blpotm",
+      "cardStyle": "gold42",
+      "cards": 8
+    },
+    {
+      "id": 43,
+      "name": "Premier League POTM",
+      "className": "plpotm",
+      "cardStyle": "gold43",
+      "cards": 9
+    },
+    {
+      "id": 45,
+      "name": "UEL Man of the Match",
+      "className": "redgold",
+      "cardStyle": "gold45",
+      "cards": 19
+    },
+    {
+      "id": 46,
+      "name": "UEL Road to the Knockouts",
+      "className": "elfinal",
+      "cardStyle": "gold46",
+      "cards": 22
+    },
+    {
+      "id": 47,
+      "name": "Champions League",
+      "className": "evolution",
+      "cardStyle": "gold47",
+      "cards": 201
+    },
+    {
+      "id": 48,
+      "name": "Champions League",
+      "className": "championsleague",
+      "cardStyle": "gold48",
+      "cards": 354
+    },
+    {
+      "id": 49,
+      "name": "Champions League MOTM",
+      "className": "wildcard",
+      "cardStyle": "gold49",
+      "cards": 16
+    },
+    {
+      "id": 50,
+      "name": "UCL Road to the Knockouts",
+      "className": "clfinal",
+      "cardStyle": "gold50",
+      "cards": 28
+    },
+    {
+      "id": 51,
+      "name": "Flashback",
+      "className": "flashback",
+      "cardStyle": "gold51",
+      "cards": 26
+    },
+    {
+      "id": 52,
+      "name": "Sudamericana",
+      "className": "totyicon",
+      "cardStyle": "gold52",
+      "cards": 928
+    },
+    {
+      "id": 53,
+      "name": "Libertadores",
+      "className": "legend",
+      "cardStyle": "gold53",
+      "cards": 700
+    },
+    {
+      "id": 54,
+      "name": "Libertadores MOTM",
+      "className": "redgold",
+      "cardStyle": "gold54",
+      "cards": 5
+    },
+    {
+      "id": 55,
+      "name": "David Beckham",
+      "className": "redgold",
+      "cardStyle": "gold55",
+      "cards": 1
+    },
+    {
+      "id": 57,
+      "name": "Showdown Upgrade",
+      "className": "showdownwinner",
+      "cardStyle": "gold57",
+      "cards": 22
+    },
+    {
+      "id": 58,
+      "name": "Showdown",
+      "className": "showdown",
+      "cardStyle": "gold58",
+      "cards": 19
+    },
+    {
+      "id": 59,
+      "name": "Sudamericana MOTM",
+      "className": "swap7",
+      "cardStyle": "gold59",
+      "cards": 8
+    },
+    {
+      "id": 60,
+      "name": "Path to Glory",
+      "className": "evolution",
+      "cardStyle": "gold60",
+      "cards": 35
+    },
+    {
+      "id": 61,
+      "name": "Summer Stars",
+      "className": "evolution",
+      "cardStyle": "gold61",
+      "cards": 36
+    },
+    {
+      "id": 62,
+      "name": "Nation Player",
+      "className": "showdown",
+      "cardStyle": "gold62",
+      "cards": 21
+    },
+    {
+      "id": 64,
+      "name": "TOTY Honourable Mentions",
+      "className": "championsleague",
+      "cardStyle": "gold64",
+      "cards": 8
+    },
+    {
+      "id": 65,
+      "name": "TOTS Moments",
+      "className": "goldblue",
+      "cardStyle": "gold65",
+      "cards": 19
+    },
+    {
+      "id": 68,
+      "name": "TOTGS Europa League",
+      "className": "season1",
+      "cardStyle": "gold68",
+      "cards": 5
+    },
+    {
+      "id": 70,
+      "name": "Team of the Group Stage",
+      "className": "confleague",
+      "cardStyle": "gold70",
+      "cards": 18
+    },
+    {
+      "id": 71,
+      "name": "Future Stars",
+      "className": "futurestars",
+      "cardStyle": "gold71",
+      "cards": 45
+    },
+    {
+      "id": 75,
+      "name": "FGS Swaps 1",
+      "className": "eumotm",
+      "cardStyle": "gold75",
+      "cards": 14
+    },
+    {
+      "id": 76,
+      "name": "FGS Swaps 1",
+      "className": "eumotm",
+      "cardStyle": "bronze76",
+      "cards": 10
+    },
+    {
+      "id": 77,
+      "name": "Shapeshifters Hero",
+      "className": "eumotm",
+      "cardStyle": "bronze77",
+      "cards": 10
+    },
+    {
+      "id": 79,
+      "name": "Ligue 1 POTM",
+      "className": "l1potm",
+      "cardStyle": "gold79",
+      "cards": 8
+    },
+    {
+      "id": 81,
+      "name": "What If Upgraded",
+      "className": "redgold",
+      "cardStyle": "gold81",
+      "cards": 22
+    },
+    {
+      "id": 82,
+      "name": "What If",
+      "className": "season1",
+      "cardStyle": "gold82",
+      "cards": 9
+    },
+    {
+      "id": 84,
+      "name": "Icon Moments",
+      "className": "legend",
+      "cardStyle": "gold84",
+      "cards": 101
+    },
+    {
+      "id": 86,
+      "name": "La Liga POTM",
+      "className": "laligapotm",
+      "cardStyle": "gold86",
+      "cards": 9
+    },
+    {
+      "id": 87,
+      "name": "Objective Player",
+      "className": "mlsobjective",
+      "cardStyle": "gold87",
+      "cards": 21
+    },
+    {
+      "id": 89,
+      "name": "FUT Birthday Evolution",
+      "className": "totyicon",
+      "cardStyle": "bronze89",
+      "cards": 18
+    },
+    {
+      "id": 90,
+      "name": "Player Moments",
+      "className": "playermoments",
+      "cardStyle": "gold90",
+      "cards": 25
+    },
+    {
+      "id": 91,
+      "name": "Season Reward",
+      "className": "season1",
+      "cardStyle": "gold91",
+      "cards": 45
+    },
+    {
+      "id": 92,
+      "name": "Icon Swaps 2",
+      "className": "iconswaps1",
+      "cardStyle": "bronze92",
+      "cards": 18
+    },
+    {
+      "id": 93,
+      "name": "Icon Swaps 3",
+      "className": "redgold",
+      "cardStyle": "bronze93",
+      "cards": 18
+    },
+    {
+      "id": 94,
+      "name": "Icon Swaps 4",
+      "className": "iconswaps4",
+      "cardStyle": "bronze94",
+      "cards": 18
+    },
+    {
+      "id": 95,
+      "name": "Headliners",
+      "className": "futheadliners",
+      "cardStyle": "gold95",
+      "cards": 9
+    },
+    {
+      "id": 96,
+      "name": "Headliners",
+      "className": "futheadliners",
+      "cardStyle": "gold96",
+      "cards": 17
+    },
+    {
+      "id": 98,
+      "name": "Objective Player",
+      "className": "season1",
+      "cardStyle": "gold98",
+      "cards": 10
+    }
+  ]
+}

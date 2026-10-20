@@ -1,0 +1,9 @@
+{
+  "sourcePath": "",
+  "gamePath": "",
+  "gameReadyDelaySeconds": 5,
+  "lsxMode": "auto",
+  "launchViaEAApp": true,
+  "eaAppOfferId": "195853",
+  "eaAppLauncherPath": ""
+}

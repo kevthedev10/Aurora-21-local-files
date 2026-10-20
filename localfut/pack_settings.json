@@ -1,0 +1,22 @@
+{
+  "packs": {
+    "8": {
+      "enabled": true,
+      "name": "All Consumables Pack",
+      "bio": "Contains one of every native FIFA 21 position modifier.",
+      "price": 1,
+      "size": 20,
+      "all_consumables": true,
+      "store_group": "special"
+    },
+    "9": {
+      "enabled": true,
+      "name": "All Kits Pack",
+      "bio": "Contains 30 unique FIFA 21 kits. Reopen it to collect the complete 1,382-kit catalog.",
+      "price": 1,
+      "size": 30,
+      "all_kits": true,
+      "store_group": "special"
+    }
+  }
+}

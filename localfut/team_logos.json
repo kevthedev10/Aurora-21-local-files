@@ -1,0 +1,11 @@
+{
+  "1050": {
+    "teamId": 1050,
+    "name": "ICON Legends",
+    "shortName": "ICON",
+    "logo": "contentfifa/team_logos/icon_team.png",
+    "logoUrl": "/contentfifa/team_logos/icon_team.png",
+    "color": "#FFD700",
+    "secondaryColor": "#FFFFFF"
+  }
+}

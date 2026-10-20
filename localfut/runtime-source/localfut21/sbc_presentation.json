@@ -1,0 +1,595 @@
+{
+    "schema":  "localfut-fifa21-sbc-presentation-1",
+    "source":  {
+                   "visualReference":  "user-provided FIFA 21 Squad Building Challenges screenshots",
+                   "nativeReference":  "FIFA 21 extracted native FUT presentation resources",
+                   "challengeFeed":  "../../sbc.json",
+                   "compatibilityProjection":  null,
+                   "idBoundary":  "localRuntimeKeys are not substituted for native EA challenge or set IDs"
+               },
+    "navigation":  {
+                       "flow":  "futsbcFlow.nav",
+                       "squadFlow":  "futSbcSquadsFlow.nav",
+                       "hierarchy":  [
+                                         "futHubTile",
+                                         "sbcEntry",
+                                         "sbcChallengesIntro",
+                                         "sbcChallenges",
+                                         "sbcSquad",
+                                         "sbcSingleChallenge",
+                                         "sbcSetRewards"
+                                     ],
+                       "screenRouting":  {
+                                             "sbcEntry":  "contentfifa/ui/external/ion_fut/screens/sbc/futSetsHub.big",
+                                             "sbcChallenges":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcHub.big",
+                                             "sbcSquad":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcSquads.big",
+                                             "sbcSingleChallenge":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcSquads.big"
+                                         },
+                       "filterTabs":  [
+                                          "ALL",
+                                          "BASIC",
+                                          "LEAGUES",
+                                          "NATIONS",
+                                          "HYBRID",
+                                          "UPGRADES",
+                                          "ICONS",
+                                          "PLAYERS",
+                                          "FUTTIES",
+                                          "CHALLENGES",
+                                          "SPECIAL"
+                                      ],
+                       "defaultFilterTab":  "ALL"
+                   },
+    "layouts":  {
+                    "futHubTile":  {
+                                       "nativeScreen":  "contentfifa/ui/external/ion_fut/screens/gameHub/GameHub.big",
+                                       "layout":  "contentfifa/ui/layout/fut/FutFluxHub2Cfg.xml",
+                                       "orientation":  "horizontal",
+                                       "tileOrder":  [
+                                                         "SQUAD_BATTLES",
+                                                         "DIVISION_RIVALS",
+                                                         "FUT_CHAMPIONS",
+                                                         "SQUAD_BUILDING_CHALLENGES",
+                                                         "FRIENDLIES",
+                                                         "ONLINE_DRAFT"
+                                                     ],
+                                       "selectedTile":  "SQUAD_BUILDING_CHALLENGES",
+                                       "artPlacement":  "large-feature-tile-with-left-copy-and-right-art"
+                                   },
+                    "sbcGroupList":  {
+                                         "nativeScreen":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcHub.big",
+                                         "gridColumns":  4,
+                                         "rowMajor":  true,
+                                         "selectedTile":  "highlighted-group-tile",
+                                         "groupRewardsPanel":  "left-of-group-grid",
+                                         "tileFields":  [
+                                                            "name",
+                                                            "artwork",
+                                                            "completedCount",
+                                                            "challengeCount",
+                                                            "expiry"
+                                                        ],
+                                         "controls":  [
+                                                          "select",
+                                                          "tagFavourite",
+                                                          "showGroupRewards",
+                                                          "playerDetails",
+                                                          "back",
+                                                          "help"
+                                                      ]
+                                     },
+                    "sbcGroupChallenges":  {
+                                               "nativeScreen":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcHub.big",
+                                               "gridColumns":  2,
+                                               "maxRows":  2,
+                                               "rowMajor":  true,
+                                               "breadcrumb":  "SQUAD BUILDING CHALLENGES \u003e FILTER \u003e GROUP",
+                                               "rightPanel":  "selected-challenge-requirements-and-rewards",
+                                               "tileFields":  [
+                                                                  "name",
+                                                                  "description",
+                                                                  "artwork",
+                                                                  "completed"
+                                                              ]
+                                           },
+                    "sbcChallengeSquad":  {
+                                              "nativeScreen":  "contentfifa/ui/external/ion_fut/screens/sbc/futSbcSquads.big",
+                                              "layout":  "contentfifa/ui/layout/fut/FutFluxSBCSellScreenCfg.xml",
+                                              "formationSource":  "challenge payload",
+                                              "slotCount":  11,
+                                              "requirementsPanel":  "right",
+                                              "controls":  [
+                                                               "swap",
+                                                               "back",
+                                                               "addPlayer",
+                                                               "views",
+                                                               "help"
+                                                           ]
+                                          }
+                },
+    "nativeResources":  {
+                            "screenAndNavigation":  [
+                                                        "contentfifa/ui/external/ion_fut/screens/sbc/futSbcHub.big",
+                                                        "contentfifa/ui/external/ion_fut/screens/sbc/futSbcSquads.big",
+                                                        "contentfifa/ui/external/ion_fut/screens/sbc/futSetsHub.big",
+                                                        "contentfifa/ui/external/ion_fut/screens/gameHub/GameHub.big",
+                                                        "contentfifa/ui/nav/fut/sbc/futsbcFlow.nav",
+                                                        "contentfifa/ui/nav/fut/sbc/futSbcSquadsFlow.nav",
+                                                        "contentfifa/ui/layout/fut/FutFluxHub2Cfg.xml",
+                                                        "contentfifa/ui/layout/fut/FutFluxSBCSellScreenCfg.xml"
+                                                    ],
+                            "components":  [
+                                               "contentfifa/ui/external/ion_fut/components/Sbc/SBCRewards.big",
+                                               "contentfifa/ui/external/ion_fut/components/Sbc/SBCTimer.big",
+                                               "contentfifa/ui/external/ion_fut/components/Sbc/SquadChallenge.big"
+                                           ],
+                            "hubArtwork":  [
+                                               "contentfifa/ui/external/ion_fut/imgAssets/GameHub/Gamehub_RibbonSBC.dds",
+                                               "contentfifa/ui/external/ion_fut/imgAssets/GameHub/GameHub_SBCSets.dds"
+                                           ],
+                            "squadArtwork":  [
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/common/background/background_SellScreen.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/background/background_sellscreen_background.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/gfx/gfx_active_tile.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/icon/icon_0.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/icon/icon_1.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/icon/icon_2.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/logo/logo_sbc.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/logo/logo_sellscreen_colored_logo.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/logo/logo_sellscreen_faded_logo.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/logo/logo_sets_tile.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/sellscreen/Logo_BG.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/sellscreen/Logo.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/sellscreen/sellscreen_sbc_1.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/sellscreen/sellscreen_sbc_2.dds",
+                                                 "contentfifa/ui/external/ion_fut/imgAssets/sbc/sellscreen/sellscreen_sbc_3.dds",
+                                                 "contentfifa/ui/imgAssets/gridCellDecorator/gridCellDecorator_EmptySBC_invalid.dds"
+                                             ],
+                            "setImages":  {
+                                              "directory":  "contentfifa/ui/external/ion_fut/artAssets/sbc_set_images",
+                                              "filenamePattern":  "sbc_set_image_{nativeSetId}.png",
+                                              "order":  "nativeSetId ascending",
+                                              "availableNativeSetIds":  [
+                                                                            1001000,
+                                                                            1002000,
+                                                                            1003000,
+                                                                            1004000,
+                                                                            1005000,
+                                                                            1006000,
+                                                                            1007000,
+                                                                            1008000,
+                                                                            1009000,
+                                                                            1010000,
+                                                                            1011000,
+                                                                            1012000,
+                                                                            1013000
+                                                                        ],
+                                              "fallback":  "contentfifa/ui/external/ion_fut/artAssets/sbc_set_images/notfound.big"
+                                          },
+                            "challengeImages":  {
+                                                    "directory":  "contentfifa/ui/external/ion_fut/artAssets/sbc_challenge_images",
+                                                    "filenamePattern":  "sbc_challenge_image_{nativeChallengeId}.png",
+                                                    "order":  "nativeChallengeId ascending",
+                                                    "availableNativeChallengeIdRanges":  [
+                                                                                             [
+                                                                                                 1001001,
+                                                                                                 1001003
+                                                                                             ],
+                                                                                             [
+                                                                                                 1007001,
+                                                                                                 1007010
+                                                                                             ],
+                                                                                             [
+                                                                                                 1008001,
+                                                                                                 1008010
+                                                                                             ],
+                                                                                             [
+                                                                                                 1009001,
+                                                                                                 1009004
+                                                                                             ],
+                                                                                             [
+                                                                                                 1010001,
+                                                                                                 1010020
+                                                                                             ],
+                                                                                             [
+                                                                                                 1011001,
+                                                                                                 1011018
+                                                                                             ],
+                                                                                             [
+                                                                                                 1012001,
+                                                                                                 1012016
+                                                                                             ],
+                                                                                             [
+                                                                                                 1013001,
+                                                                                                 1013020
+                                                                                             ]
+                                                                                         ],
+                                                    "fallback":  "contentfifa/ui/external/ion_fut/artAssets/sbc_challenge_images/notfound.big"
+                                                }
+                        },
+    "localRuntimeBindings":  {
+                                 "idType":  "local-runtime-key",
+                                 "groupOrder":  [
+                                                    {
+                                                        "id":  "SBC_BASIC_001",
+                                                        "name":  "The Basics",
+                                                        "category":  "Basic",
+                                                        "challengeIds":  [
+                                                                             "BASIC_001_1",
+                                                                             "BASIC_001_2",
+                                                                             "BASIC_001_3",
+                                                                             "BASIC_001_4"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_LEAGUE_PL",
+                                                        "name":  "Premier League",
+                                                        "category":  "Leagues",
+                                                        "challengeIds":  [
+                                                                             "LEAGUE_PL_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_LEAGUE_LALIGA",
+                                                        "name":  "LaLiga",
+                                                        "category":  "Leagues",
+                                                        "challengeIds":  [
+                                                                             "LEAGUE_LALIGA_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_LEAGUE_SERIEA",
+                                                        "name":  "Serie A",
+                                                        "category":  "Leagues",
+                                                        "challengeIds":  [
+                                                                             "LEAGUE_SERIEA_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_LEAGUE_BUNDESLIGA",
+                                                        "name":  "Bundesliga",
+                                                        "category":  "Leagues",
+                                                        "challengeIds":  [
+                                                                             "LEAGUE_BUND_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_ENG",
+                                                        "name":  "England",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_ENG_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_ESP",
+                                                        "name":  "Spain",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_ESP_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_GER",
+                                                        "name":  "Germany",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_GER_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_ITA",
+                                                        "name":  "Italy",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_ITA_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_BRA",
+                                                        "name":  "Brazil",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_BRA_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_NATION_ARG",
+                                                        "name":  "Argentina",
+                                                        "category":  "Nations",
+                                                        "challengeIds":  [
+                                                                             "NATION_ARG_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_HYBRID_001",
+                                                        "name":  "Hybrid Nations",
+                                                        "category":  "Hybrid",
+                                                        "challengeIds":  [
+                                                                             "HYBRID_NAT_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_HYBRID_002",
+                                                        "name":  "Hybrid Leagues",
+                                                        "category":  "Hybrid",
+                                                        "challengeIds":  [
+                                                                             "HYBRID_LG_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_82",
+                                                        "name":  "82+ Player Pick",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_82_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_85",
+                                                        "name":  "85+ Upgrade x10",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_85_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_87",
+                                                        "name":  "87+ Upgrade x10",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_87_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_88",
+                                                        "name":  "88+ Player Pick",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_88_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_92",
+                                                        "name":  "92+ Player Pick",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_92_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_UP_ICON",
+                                                        "name":  "92+ Icon Moments PP",
+                                                        "category":  "Upgrades",
+                                                        "challengeIds":  [
+                                                                             "UP_ICON_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_R9",
+                                                        "name":  "Ronaldo Nazario",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_R9_1",
+                                                                             "ICON_R9_27"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Pele",
+                                                        "name":  "Pelé",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_PELE_29"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Cruyff",
+                                                        "name":  "Cruyff",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_CRUYFF_15"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Ronaldinho",
+                                                        "name":  "Ronaldinho",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_RON_22"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Gullit",
+                                                        "name":  "Gullit",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_GULLIT_25"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Eusebio",
+                                                        "name":  "Eusébio",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_EUSEBIO_17"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Matthaus",
+                                                        "name":  "Matthäus",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_MATTHAUS_7"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_ICON_Vieira",
+                                                        "name":  "Patrick Vieira",
+                                                        "category":  "Icons",
+                                                        "challengeIds":  [
+                                                                             "ICON_VIEIRA_16"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_UMTITI",
+                                                        "name":  "Samuel Umtiti",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_UMTITI_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_KANTE",
+                                                        "name":  "N\u0027Golo Kanté",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_KANTE_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_MESSI",
+                                                        "name":  "Messi",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_MESSI_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_DEPAY",
+                                                        "name":  "Memphis Depay",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_DEPAY_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_SANE",
+                                                        "name":  "Leroy Sané",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_SANE_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_ZAHA",
+                                                        "name":  "Wilfried Zaha",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_ZAHA_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_PLAYER_COMAN",
+                                                        "name":  "Kingsley Coman",
+                                                        "category":  "Players",
+                                                        "challengeIds":  [
+                                                                             "PLAYER_COMAN_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_FUTTIES_001",
+                                                        "name":  "FUTTIES Martial",
+                                                        "category":  "FUTTIES",
+                                                        "challengeIds":  [
+                                                                             "FUTTIES_MARTIAL_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_FUTTIES_VOTE",
+                                                        "name":  "FUTTIES Voting Day",
+                                                        "category":  "FUTTIES",
+                                                        "challengeIds":  [
+                                                                             "FUTTIES_VOTE_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_FUTTIES_PICK",
+                                                        "name":  "FUTTIES Player Pick",
+                                                        "category":  "FUTTIES",
+                                                        "challengeIds":  [
+                                                                             "FUTTIES_PICK_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_CH_TOTY",
+                                                        "name":  "TOTY Challenge",
+                                                        "category":  "Challenges",
+                                                        "challengeIds":  [
+                                                                             "CH_TOTY_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_CH_FUTURE",
+                                                        "name":  "Future Stars Challenge",
+                                                        "category":  "Challenges",
+                                                        "challengeIds":  [
+                                                                             "CH_FUTURE_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_CH_FREEZE",
+                                                        "name":  "FUT Freeze Challenge",
+                                                        "category":  "Challenges",
+                                                        "challengeIds":  [
+                                                                             "CH_FREEZE_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_CH_WHATIF",
+                                                        "name":  "What If Challenge",
+                                                        "category":  "Challenges",
+                                                        "challengeIds":  [
+                                                                             "CH_WHATIF_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_CH_HEADLINERS",
+                                                        "name":  "Headliners Challenge",
+                                                        "category":  "Challenges",
+                                                        "challengeIds":  [
+                                                                             "CH_HEADLINERS_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_SP_FPD",
+                                                        "name":  "FUT Player Days",
+                                                        "category":  "Special",
+                                                        "challengeIds":  [
+                                                                             "SP_FPD_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_SP_PARTY",
+                                                        "name":  "Party Bag",
+                                                        "category":  "Special",
+                                                        "challengeIds":  [
+                                                                             "SP_PARTY_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_SP_SUMMER",
+                                                        "name":  "Summer Stars",
+                                                        "category":  "Special",
+                                                        "challengeIds":  [
+                                                                             "SP_SUMMER_1"
+                                                                         ]
+                                                    },
+                                                    {
+                                                        "id":  "SBC_SP_FOF",
+                                                        "name":  "Festival of FUTball",
+                                                        "category":  "Special",
+                                                        "challengeIds":  [
+                                                                             "SP_FOF_1"
+                                                                         ]
+                                                    }
+                                                ],
+                                 "artworkBinding":  "nativeSetId/nativeChallengeId from an authoritative challenge feed only; local keys remain unassigned"
+                             },
+    "externalReferenceArtwork":  {
+                                     "directory":  "contentfifa/ui/external/ion_fut/artAssets/sbc_web_reference",
+                                     "bindingField":  "referenceArtwork",
+                                     "nativeClientBinding":  false,
+                                     "source":  "https://fifauteam.com/fifa-21-squad-building-challenges/",
+                                     "note":  "Only exact title matches are bound; native challenge-image IDs remain separate and unassigned."
+                                 }
+}

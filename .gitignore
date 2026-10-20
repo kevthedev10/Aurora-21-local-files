@@ -1,0 +1,92 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated diagnostics and mutable club state (not the native game databases).
+*.log
+*.log.*
+*.jsonl
+*.pid
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Machine-specific preferences live in %LOCALAPPDATA%\Project21\LocalFUT.
+# Keep old local copies out of commits; only *.example.json is shared.
+/localfut/launcher-settings.json
+/localfut/runtime-source/localfut21/config.json
+/localfut/runtime-source/localfut21/pack_settings.json
+
+# Local analysis state
+.analysis/
+.manus-runtime-notes.md
+work/
+outputs/
+captures/
+logs/
+local/
+*.bndb
+*.dd64
+*.dmp
+*.trace
+
+# Never redistribute game or security material
+*.dll
+*.exe
+*.pdb
+*.sys
+*.key
+*.pem
+*.pfx
+*.cer
+*.crt
+*.der
+
+# Ship only our two small helpers, alongside their C# source and build script.
+!/localfut/Project21-LocalFUT-Launcher.exe
+!/localfut/Project21-LocalAuthBridge.exe
+
+# LocalFUT runtime output is ignored unless explicitly retained below.
+localfut/runtime/*
+
+# Retain reusable diagnostic source, not captured traffic, caches, logs or
+# machine-specific status/PID JSON. Curated fixtures live outside runtime/.
+!localfut/runtime/diag_crash.ps1
+!localfut/runtime/diag_eacore.ps1
+!localfut/runtime/diag_fut21.ps1
+!localfut/runtime/diag_state.ps1
+!localfut/runtime/dump_lsx_handshake.py
+!localfut/runtime/dump_lsx_region.py
+!localfut/runtime/dump_lsx_schema.py
+!localfut/runtime/extract_lsx_strings.py
+!localfut/runtime/lsx_capture_server.py
+
+# Keep reproducible miner scratch output local, except for the two complete
+# native player-table exports used to audit and rebuild the runtime catalog.
+!localfut/runtime/mined/
+localfut/runtime/mined/*
+!localfut/runtime/mined/tables/
+localfut/runtime/mined/tables/*
+!localfut/runtime/mined/tables/cards_ng_db/
+!localfut/runtime/mined/tables/fifa_ng_db/
+localfut/runtime/mined/tables/cards_ng_db/*
+localfut/runtime/mined/tables/fifa_ng_db/*
+!localfut/runtime/mined/tables/cards_ng_db/players.json
+!localfut/runtime/mined/tables/fifa_ng_db/players.json
+
+localfut/hosts*.txt
+localfut/*hosts*.ps1
+localfut/*-done.txt
+localfut/_evt_query.ps1
+
+# Local C# data-miner build output
+tools/fifa21-data-miner/bin/
+tools/fifa21-data-miner/obj/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

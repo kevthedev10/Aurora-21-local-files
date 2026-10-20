@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routing fileVersion="2" refresh="1800">
+  <files>
+    <file service="dimecfglocal" type="local" base="data/store/" defaultFile="dimecfg.xml" />
+    <file service="dimedesclocal" type="local" base="data/store/" defaultFile="dime_descriptions_%s.xml" modifier="locale" />
+    <file service="storecfglocal" type="local" base="data/store/" defaultFile="storecfg.xml" />
+    <file service="dimecfg" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/cmn/dimecfg.xml">
+      <group name="pc64" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/dimecfg.xml" platform="pc64" />
+      <group name="ps4" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/dimecfg.xml" platform="ps4" />
+      <group name="xone" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/dimecfg.xml" platform="xone" />
+    </file>
+    <file service="dimecfgdemo" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/gen4/dimecfgdemo.xml" />
+    <file service="dimecfgdemo_gen3" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/cmn/dimecfg_demo.xml">
+      <group name="alternate_dd" type="network" osdkVar="CONTENT_URL" file="fifa/dime/cmn/dimecfg_demo_ar.xml" platform="ps3">
+        <country id="sa" />
+        <country id="ae" />
+      </group>
+      <group name="alternate_dd" type="network" osdkVar="CONTENT_URL" file="fifa/dime/cmn/dimecfg_demo_br.xml" platform="ps3">
+        <country id="br" />
+      </group>
+    </file>
+    <file service="storecfg" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/cmn/storecfg.xml">
+      <group name="pc64" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/storecfg.xml" platform="pc64" />
+      <group name="ps4" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/storecfg.xml" platform="ps4" />
+      <group name="xone" type="network" osdkVar="CONTENT_URL" file="fifa/dime/gen4/storecfg.xml" platform="xone" />
+    </file>
+    <file service="storedesc" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/cmn/storedesc-%s.xml" modifier="locale" />
+    <file service="dimedesc" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dime/cmn/dime_descriptions_%s.xml" modifier="locale" />
+    <file service="storeimage" type="network" osdkVar="DIME_IMG_FILES_PATH" defaultFile="item_%s.big" modifier="custom" />
+    <file service="audiodnp" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/audioDNPListG3.csv" />
+    <file service="audiodnp4" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/gen4/audioDNPListG4.csv" />
+    <file service="assetdb" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/assets_20170331_53_1_2012373853.bin" version="53" crc="">
+      <group name="ps4" type="network" osdkVar="CONTENT_URL" file="fifa/dl/gen4/assets_20170331_57_1_n492791513.bin" platform="ps4" version="57" crc="" />
+      <group name="xone" type="network" osdkVar="CONTENT_URL" file="fifa/dl/gen4/assets_20170331_57_1_n492791513.bin" platform="xone" version="57" crc="" />
+    </file>
+	<file service="UpsellScreenDemo" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/gen4/UpsellScreenDemo.big" version="6" mountPath="data/ui/game/screens/upsell/UpsellScreenDemo.big" crc="4288041071" />
+	<file service="UpsellE3ScreenDemo" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/gen4/UpsellE3ScreenDemo.big" version="1" crc="4218199760" mountPath="data/ui/game/screens/upsell/UpsellE3ScreenDemo.big" />
+	<file service="UpsellEAAPostLaunchScreen" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/gen4/UpsellEAAPostLaunchScreen.big" version="1" mountPath="data/ui/game/screens/upsell/UpsellEAAPostLaunchScreen.big" crc="1336392237" />
+	<file service="UpsellEAAPreLaunchScreen" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/dl/gen4/UpsellEAAPreLaunchScreen.big" version="1" crc="1942981782" mountPath="data/ui/game/screens/upsell/UpsellEAAPreLaunchScreen.big" />
+    <file service="dynamicLocDB" type="network" osdkVar="CONTENT_URL" defaultFile="fifa/loc/gen4/dynamicLocDB-%s.xml" modifier="locale" mountPath="data/loc/dynamicLocDB-%s.xml" />
+	<!--
+			** EXAMPLE **
+			* Note: You can filter by any of the following criteria: USER, DISK ID or COUNTRY as follows:
+			* 	 <user id="FUTROUTE360"/> - A platform-specific user id
+			* 	 <disk id="NA_NaSa"/> - Some EA region code.
+			* 	 <country id="ca"/> - A country code
+					 
+			* Replace the above version of this file with the following:
+
+			 <file service="dimecfg" type="network" osdkVar="DIME_FILES_PATH" defaultFile="dimecfg.xml">
+				 <group name="QA_XBOX" type="network" file="dimecfg_CHANGEME.xml" osdkVar="DIME_FILES_PATH" platform="xbox">
+					 <user id="FUTROUTE360"/>
+				 </group>
+	
+				 <group name="QA_PS3" type="network" file="dimecfg_CHANGEME.xml" osdkVar="DIME_FILES_PATH" platform="ps3">
+					 <user id="FUTRT1"/>
+				 </group>
+	
+				 <group name="QA_PC" type="network" file="dimecfg_CHANGEME.xml" osdkVar="DIME_FILES_PATH" platform="pc">
+					 <user id="FUTPAT01JN23"/>
+				 </group>
+			</file>
+		-->
+  </files>
+</routing>
+<!--
+	////////////////////////////////
+	// Sample Schema
+	////////////////////////////////
+	 <?xml version="1.0" encoding="UTF-8"?>
+	 <routing fileVersion="1" refresh="1800">
+		<files>
+			 <file service="dime" type="local" defaultFile="dimeCfg.xml" base="/data/store" version="1" crc="ABCDEF01">
+				 <group name="test" type="network" file="dimeCfg.xml" osdkVar="DIME_CFG" platform="xbox" version="1" crc="ABCDEF01">
+					 <user id="pwright6eac20"/>
+					 <disk id="NA_EnFrMx"/>
+				 </group>
+				 <group name="test" type="network" file="dimeCfg.xml" osdkVar="DIME_CFG" platform="ps3" version="1" crc="ABCDEF01">
+					 <user id="pwright6eac20"/>
+					 <disk id="NA_NaSa"/>
+					 <country id="ca"/>
+				 </group>
+				 <group name="test" type="network" file="dimeCfg.xml" osdkVar="DIME_CFG" platform="pc" version="1" crc="ABCDEF01"/>
+
+				////////////////////////////////
+				// Make sure you put empty group names at the end since the router goes with the first match.
+				////////////////////////////////
+
+			 <file service="dimecfg" type="local" defaultFile="dime_descriptions_%s.xml" base="/data/store" modifier="locale" version="1" crc="ABCDEF01"/>			 
+	 </routing>
+-->

@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-25",
+  "source_module": "powdll_Win64_retail.dll",
+  "source_sha256": "6FA167DCA64BD78FD0E3961C253D48668961CE3D33AC8567D77E9D1FF3615885",
+  "target_module": "FIFA21.exe",
+  "target_sha256": "05CC56F897201A6BA74D608F971BCF157B1A46C10E9CDA335E868C17004FBC71",
+  "factory": {
+    "name": "StubFifaOnline",
+    "string_rva": "0x5498",
+    "code_xref_rva": "0x2759",
+    "result_global_rva": "0xEBF8"
+  },
+  "runtime_table": {
+    "target_module": "FIFA21.exe",
+    "entries": [
+      {
+        "slot_offset": "0x18",
+        "target_rva": "0xA294B0"
+      },
+      {
+        "slot_offset": "0x50",
+        "target_rva": "0xA295B0"
+      },
+      {
+        "slot_offset": "0xB0",
+        "target_rva": "0xA29790"
+      },
+      {
+        "slot_offset": "0xD0",
+        "target_rva": "0xA29870"
+      },
+      {
+        "slot_offset": "0x108",
+        "target_rva": "0xA29910"
+      },
+      {
+        "slot_offset": "0x120",
+        "target_rva": "0xA29990"
+      },
+      {
+        "slot_offset": "0x128",
+        "target_rva": "0xA299A0"
+      },
+      {
+        "slot_offset": "0x130",
+        "target_rva": "0xA299E0"
+      },
+      {
+        "slot_offset": "0x158",
+        "target_rva": "0xA29A80"
+      },
+      {
+        "slot_offset": "0x160",
+        "target_rva": "0xA29AC0"
+      },
+      {
+        "slot_offset": "0x168",
+        "target_rva": "0xA29AD0"
+      }
+    ],
+    "mapping_note": "Selected entries from an expanded read-only runtime dump. The dump corrected the earlier 0x120 label for target RVA 0xA29910."
+  },
+  "retry_observations": [
+    {
+      "scope": "One user-generated Ultimate Team retry",
+      "selected_target_rvas": [
+        "0xA295B0",
+        "0xA29790",
+        "0xA29870",
+        "0xA29910"
+      ],
+      "hits_before_connection_error": []
+    },
+    {
+      "scope": "One later user-generated Ultimate Team retry",
+      "selected_target_rvas": [
+        "0xA294B0",
+        "0xA299E0",
+        "0xA29A80",
+        "0xA29AD0"
+      ],
+      "hits_before_connection_error": []
+    },
+    {
+      "scope": "One final scoped user-generated Ultimate Team retry",
+      "selected_target_rvas": [
+        "0xA299A0",
+        "0xA29AC0"
+      ],
+      "hits_before_connection_error": []
+    },
+    {
+      "scope": "One table-wide user-generated Ultimate Team retry",
+      "coverage": "All 47 non-null entries in the live StubFifaOnline table",
+      "breakpoint_type": "ordinary software breakpoints with logging enabled and break condition false",
+      "hits_before_connection_error": [],
+      "conclusion": "The live StubFifaOnline table was not executed by the observed retry."
+    }
+  ],
+  "privacy": "Session-specific pointers, object addresses, payload values, and machine paths are intentionally omitted."
+}

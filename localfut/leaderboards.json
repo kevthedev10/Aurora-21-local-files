@@ -1,0 +1,16 @@
+{
+  "schema": "localfut-leaderboards-1",
+  "enabled": true,
+  "localOnly": true,
+  "seasonId": 1,
+  "resetPolicy": "never",
+  "categories": [
+    {"id": "overall", "name": "Overall", "stat": "wins"},
+    {"id": "wins", "name": "Wins", "stat": "wins"},
+    {"id": "matches", "name": "Matches Played", "stat": "matches"},
+    {"id": "coins", "name": "Coins Earned", "stat": "coinsEarned"},
+    {"id": "season_xp", "name": "Season XP", "stat": "seasonXp"}
+  ],
+  "entries": [],
+  "ui": {"categoriesRoute": "/leaderboards/options", "dataRoute": "/leaderboards"}
+}

@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FUT_SBC_SYSTEM version="21.0">
+
+  <!-- SBC HUB TABS -->
+  <HUB TABS="10">
+    <TAB ID="0" NAME="Basic" ICON="sbc_tab_basic"/>
+    <TAB ID="1" NAME="Leagues" ICON="sbc_tab_leagues"/>
+    <TAB ID="2" NAME="Nations" ICON="sbc_tab_nations"/>
+    <TAB ID="3" NAME="Hybrid" ICON="sbc_tab_hybrid"/>
+    <TAB ID="4" NAME="Upgrades" ICON="sbc_tab_upgrades"/>
+    <TAB ID="5" NAME="Icons" ICON="sbc_tab_icons"/>
+    <TAB ID="6" NAME="Players" ICON="sbc_tab_players"/>
+    <TAB ID="7" NAME="FUTTIES" ICON="sbc_tab_futties"/>
+    <TAB ID="8" NAME="Challenges" ICON="sbc_tab_challenges"/>
+    <TAB ID="9" NAME="Special" ICON="sbc_tab_special"/>
+  </HUB>
+
+  <!-- SBC SETS -->
+  <SETS>
+    <!-- TAB 0: Basic -->
+    <SET ID="SBC_BASIC_001" TAB="0" NAME="The Basics" IMAGE="sbc_set_image_1001000" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete basic SBC challenges to learn the fundamentals.</DESCRIPTION>
+      <CHALLENGE ID="BASIC_001_1" ORDER="1" NAME="First Steps" DIFFICULTY="1">
+        <REQUIREMENTS>
+          <PLAYERS min="2" max="11"/>
+          <CHEMISTRY min="0" max="100"/>
+          <RATING min="0" max="99"/>
+          <NATIONS exact="1"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="1" name="Gold Pack" count="1"/>
+          <COINS>1000</COINS>
+          <XP>50</XP>
+        </REWARDS>
+      </CHALLENGE>
+      <CHALLENGE ID="BASIC_001_2" ORDER="2" NAME="Getting Started" DIFFICULTY="1">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="20" max="100"/>
+          <RATING min="60" max="99"/>
+          <NATIONS min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="1" name="Premium Gold Pack" count="1"/>
+          <COINS>1500</COINS>
+          <XP>75</XP>
+        </REWARDS>
+      </CHALLENGE>
+      <CHALLENGE ID="BASIC_001_3" ORDER="3" NAME="Advanced Basics" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="40" max="100"/>
+          <RATING min="65" max="99"/>
+          <LEAGUES min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Jumbo Premium Gold" count="1"/>
+          <COINS>2000</COINS>
+          <XP>100</XP>
+        </REWARDS>
+      </CHALLENGE>
+      <CHALLENGE ID="BASIC_001_4" ORDER="4" NAME="League Nations" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="50" max="100"/>
+          <RATING min="70" max="99"/>
+          <NATIONS min="3"/>
+          <LEAGUES min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="3" name="Prime Gold Players" count="1"/>
+          <COINS>3000</COINS>
+          <XP>150</XP>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 1: Leagues -->
+    <SET ID="SBC_LEAGUE_PL" TAB="1" NAME="Premier League" IMAGE="sbc_set_image_1001002" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Submit squads featuring Premier League players.</DESCRIPTION>
+      <CHALLENGE ID="LEAGUE_PL_1" ORDER="1" NAME="Premier League Basics" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="75" max="99"/>
+          <LEAGUES exact="39"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_LEAGUE_LALIGA" TAB="1" NAME="LaLiga" IMAGE="sbc_set_image_1001002" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Submit squads featuring LaLiga players.</DESCRIPTION>
+      <CHALLENGE ID="LEAGUE_LALIGA_1" ORDER="1" NAME="LaLiga Basics" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="75" max="99"/>
+          <LEAGUES exact="53"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_LEAGUE_SERIEA" TAB="1" NAME="Serie A" IMAGE="sbc_set_image_1001002" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="LEAGUE_SERIEA_1" ORDER="1" NAME="Serie A Basics" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="75" max="99"/>
+          <LEAGUES exact="31"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_LEAGUE_BUNDESLIGA" TAB="1" NAME="Bundesliga" IMAGE="sbc_set_image_1001002" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="LEAGUE_BUND_1" ORDER="1" NAME="Bundesliga Basics" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="75" max="99"/>
+          <LEAGUES exact="19"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 2: Nations -->
+    <SET ID="SBC_NATION_ENG" TAB="2" NAME="England" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_ENG_1" ORDER="1" NAME="Three Lions" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="14"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_NATION_ESP" TAB="2" NAME="Spain" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_ESP_1" ORDER="1" NAME="La Roja" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="45"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_NATION_GER" TAB="2" NAME="Germany" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_GER_1" ORDER="1" NAME="Die Mannschaft" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="21"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_NATION_ITA" TAB="2" NAME="Italy" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_ITA_1" ORDER="1" NAME="Gli Azzurri" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="27"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_NATION_BRA" TAB="2" NAME="Brazil" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_BRA_1" ORDER="1" NAME="Seleção" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="54"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_NATION_ARG" TAB="2" NAME="Argentina" IMAGE="sbc_set_image_1001003" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="NATION_ARG_1" ORDER="1" NAME="Albiceleste" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="78" max="99"/>
+          <NATIONS exact="52"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+          <COINS>4000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 3: Hybrid -->
+    <SET ID="SBC_HYBRID_001" TAB="3" NAME="Hybrid Nations" IMAGE="sbc_set_image_1001004" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="HYBRID_NAT_1" ORDER="1" NAME="Nation Mix" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="80" max="99"/>
+          <NATIONS min="3"/>
+          <LEAGUES min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="3" name="Prime Gold Players" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_HYBRID_002" TAB="3" NAME="Hybrid Leagues" IMAGE="sbc_set_image_1001004" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="HYBRID_LG_1" ORDER="1" NAME="League Mix" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="80" max="99"/>
+          <LEAGUES min="3"/>
+          <NATIONS min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="3" name="Prime Gold Players" count="1"/>
+          <COINS>5000</COINS>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 4: Upgrades -->
+    <SET ID="SBC_UP_82" TAB="4" NAME="82+ Player Pick" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_82_1" ORDER="1" NAME="82+ Pick" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="40" max="100"/>
+          <RATING min="82" max="99"/>
+          <RARE min="5"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="5" name="82+ Player Pick" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_UP_85" TAB="4" NAME="85+ Upgrade x10" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_85_1" ORDER="1" NAME="85+ x10" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="50" max="100"/>
+          <RATING min="84" max="99"/>
+          <RARE min="8"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="6" name="85+ Upgrade x10" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_UP_87" TAB="4" NAME="87+ Upgrade x10" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_87_1" ORDER="1" NAME="87+ x10" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="86" max="99"/>
+          <RARE min="9"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="7" name="87+ Upgrade x10" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_UP_88" TAB="4" NAME="88+ Player Pick" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_88_1" ORDER="1" NAME="88+ Pick" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="87" max="99"/>
+          <RARE min="9"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="8" name="88+ Player Pick" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_UP_92" TAB="4" NAME="92+ Player Pick" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_92_1" ORDER="1" NAME="92+ Pick" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="90" max="99"/>
+          <RARE min="10"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="9" name="92+ Player Pick" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_UP_ICON" TAB="4" NAME="92+ Icon Moments PP" IMAGE="sbc_set_image_1001005" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="UP_ICON_1" ORDER="1" NAME="Icon Moments PP" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="90" max="99"/>
+          <RARE min="10"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="10" name="92+ Icon Moments PP" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 5: Icons -->
+    <SET ID="SBC_ICON_R9" TAB="5" NAME="Ronaldo Nazario" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 27 segments to unlock Icon Ronaldo Nazario.</DESCRIPTION>
+      <CHALLENGE ID="ICON_R9_1" ORDER="1" NAME="Segment 1: Bronze" DIFFICULTY="1">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="0" max="100"/>
+          <RATING min="60" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <COINS>0</COINS>
+          <XP>100</XP>
+        </REWARDS>
+      </CHALLENGE>
+      <CHALLENGE ID="ICON_R9_27" ORDER="27" NAME="Segment 27: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="88" max="99"/>
+          <RARE min="11"/>
+          <TOTW min="3"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="37576" name="Ronaldo Nazario" rating="97" position="ST"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Pele" TAB="5" NAME="Pelé" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 29 segments to unlock Icon Pelé.</DESCRIPTION>
+      <CHALLENGE ID="ICON_PELE_29" ORDER="29" NAME="Segment 29: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="88" max="99"/>
+          <RARE min="11"/>
+          <TOTW min="3"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="237067" name="Pelé" rating="98" position="CAM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Cruyff" TAB="5" NAME="Cruyff" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 15 segments to unlock Icon Cruyff.</DESCRIPTION>
+      <CHALLENGE ID="ICON_CRUYFF_15" ORDER="15" NAME="Segment 15: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="87" max="99"/>
+          <RARE min="11"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="190043" name="Cruyff" rating="94" position="CF"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Ronaldinho" TAB="5" NAME="Ronaldinho" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 22 segments to unlock Icon Ronaldinho.</DESCRIPTION>
+      <CHALLENGE ID="ICON_RON_22" ORDER="22" NAME="Segment 22: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="88" max="99"/>
+          <RARE min="11"/>
+          <TOTW min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="28130" name="Ronaldinho" rating="95" position="LW"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Gullit" TAB="5" NAME="Gullit" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 25 segments to unlock Icon Gullit.</DESCRIPTION>
+      <CHALLENGE ID="ICON_GULLIT_25" ORDER="25" NAME="Segment 25: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="88" max="99"/>
+          <RARE min="11"/>
+          <TOTW min="3"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="206517" name="Gullit" rating="93" position="CM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Eusebio" TAB="5" NAME="Eusébio" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 17 segments to unlock Icon Eusébio.</DESCRIPTION>
+      <CHALLENGE ID="ICON_EUSEBIO_17" ORDER="17" NAME="Segment 17: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="87" max="99"/>
+          <RARE min="11"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="242519" name="Eusébio" rating="93" position="CF"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Matthaus" TAB="5" NAME="Matthäus" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 7 segments to unlock Icon Matthäus.</DESCRIPTION>
+      <CHALLENGE ID="ICON_MATTHAUS_7" ORDER="7" NAME="Segment 7: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="86" max="99"/>
+          <RARE min="11"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="166906" name="Matthäus" rating="94" position="CM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_ICON_Vieira" TAB="5" NAME="Patrick Vieira" IMAGE="sbc_set_image_1001006" STATE="available" REPEATABLE="false">
+      <DESCRIPTION>Complete all 16 segments to unlock Icon Vieira.</DESCRIPTION>
+      <CHALLENGE ID="ICON_VIEIRA_16" ORDER="16" NAME="Segment 16: Final" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="87" max="99"/>
+          <RARE min="11"/>
+          <TOTW min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="1397" name="Vieira" rating="92" position="CDM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 6: Player SBCs -->
+    <SET ID="SBC_PLAYER_UMTITI" TAB="6" NAME="Samuel Umtiti" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_UMTITI_1" ORDER="1" NAME="Umtiti SBC" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="84" max="99"/>
+          <NATIONS exact="18"/>
+          <RARE min="8"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="192600" name="Umtiti" rating="86" position="CB"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_KANTE" TAB="6" NAME="N'Golo Kanté" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_KANTE_1" ORDER="1" NAME="Kanté SBC" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="85" max="100"/>
+          <RATING min="86" max="99"/>
+          <LEAGUES exact="39"/>
+          <RARE min="9"/>
+          <TOTW min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="193198" name="Kanté" rating="90" position="CDM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_MESSI" TAB="6" NAME="Messi" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_MESSI_1" ORDER="1" NAME="Messi SBC" DIFFICULTY="5">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="100" max="100"/>
+          <RATING min="88" max="99"/>
+          <NATIONS exact="52"/>
+          <RARE min="11"/>
+          <TOTW min="3"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="158023" name="Messi" rating="93" position="RW"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_DEPAY" TAB="6" NAME="Memphis Depay" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_DEPAY_1" ORDER="1" NAME="Depay SBC" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="84" max="99"/>
+          <NATIONS exact="34"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="203551" name="Depay" rating="85" position="CF"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_SANE" TAB="6" NAME="Leroy Sané" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_SANE_1" ORDER="1" NAME="Sané SBC" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="84" max="99"/>
+          <NATIONS exact="21"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="222492" name="Sané" rating="86" position="LM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_ZAHA" TAB="6" NAME="Wilfried Zaha" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_ZAHA_1" ORDER="1" NAME="Zaha SBC" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="84" max="99"/>
+          <NATIONS exact="14"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="198717" name="Zaha" rating="85" position="LW"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_PLAYER_COMAN" TAB="6" NAME="Kingsley Coman" IMAGE="sbc_set_image_1001007" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="PLAYER_COMAN_1" ORDER="1" NAME="Coman SBC" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="84" max="99"/>
+          <NATIONS exact="18"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="222331" name="Coman" rating="85" position="LM"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 7: FUTTIES -->
+    <SET ID="SBC_FUTTIES_001" TAB="7" NAME="FUTTIES Martial" IMAGE="sbc_set_image_1001008" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="FUTTIES_MARTIAL_1" ORDER="1" NAME="FUTTIES Martial" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="85" max="100"/>
+          <RATING min="86" max="99"/>
+          <LEAGUES exact="39"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PLAYER resourceId="211300" name="Martial" rating="88" position="ST"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_FUTTIES_VOTE" TAB="7" NAME="FUTTIES Voting Day" IMAGE="sbc_set_image_1001008" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="FUTTIES_VOTE_1" ORDER="1" NAME="Voting Day" DIFFICULTY="1">
+        <REQUIREMENTS>
+          <PLAYERS min="1" max="11"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <COINS>0</COINS>
+          <XP>25</XP>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_FUTTIES_PICK" TAB="7" NAME="FUTTIES Player Pick" IMAGE="sbc_set_image_1001008" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="FUTTIES_PICK_1" ORDER="1" NAME="FUTTIES Pick" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="70" max="100"/>
+          <RATING min="85" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="11" name="FUTTIES Player Pick" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 8: Challenges -->
+    <SET ID="SBC_CH_TOTY" TAB="8" NAME="TOTY Challenge" IMAGE="sbc_set_image_1001009" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="CH_TOTY_1" ORDER="1" NAME="TOTY Challenge" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="85" max="99"/>
+          <TOTW min="2"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="3" name="Prime Gold Players" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_CH_FUTURE" TAB="8" NAME="Future Stars Challenge" IMAGE="sbc_set_image_1001009" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="CH_FUTURE_1" ORDER="1" NAME="Future Stars" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="75" max="100"/>
+          <RATING min="82" max="99"/>
+          <AGE max="21"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_CH_FREEZE" TAB="8" NAME="FUT Freeze Challenge" IMAGE="sbc_set_image_1001009" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="CH_FREEZE_1" ORDER="1" NAME="FUT Freeze" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="75" max="100"/>
+          <RATING min="82" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_CH_WHATIF" TAB="8" NAME="What If Challenge" IMAGE="sbc_set_image_1001009" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="CH_WHATIF_1" ORDER="1" NAME="What If" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="75" max="100"/>
+          <RATING min="82" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="2" name="Premium Gold Pack" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_CH_HEADLINERS" TAB="8" NAME="Headliners Challenge" IMAGE="sbc_set_image_1001009" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="CH_HEADLINERS_1" ORDER="1" NAME="Headliners" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="85" max="99"/>
+          <RARE min="9"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="3" name="Prime Gold Players" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <!-- TAB 9: Special -->
+    <SET ID="SBC_SP_FPD" TAB="9" NAME="FUT Player Days" IMAGE="sbc_set_image_1001010" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="SP_FPD_1" ORDER="1" NAME="FUT Player Days" DIFFICULTY="2">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="60" max="100"/>
+          <RATING min="75" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="1" name="Gold Pack" count="2"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_SP_PARTY" TAB="9" NAME="Party Bag" IMAGE="sbc_set_image_1001010" STATE="available" REPEATABLE="true">
+      <CHALLENGE ID="SP_PARTY_1" ORDER="1" NAME="Party Bag" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="85" max="99"/>
+          <RARE min="9"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="12" name="Party Bag" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_SP_SUMMER" TAB="9" NAME="Summer Stars" IMAGE="sbc_set_image_1001010" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="SP_SUMMER_1" ORDER="1" NAME="Summer Stars" DIFFICULTY="4">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="80" max="100"/>
+          <RATING min="85" max="99"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="13" name="Summer Stars Pack" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+
+    <SET ID="SBC_SP_FOF" TAB="9" NAME="Festival of FUTball" IMAGE="sbc_set_image_1001010" STATE="available" REPEATABLE="false">
+      <CHALLENGE ID="SP_FOF_1" ORDER="1" NAME="FOF Challenge" DIFFICULTY="3">
+        <REQUIREMENTS>
+          <PLAYERS min="11" max="11"/>
+          <CHEMISTRY min="75" max="100"/>
+          <RATING min="82" max="99"/>
+          <NATIONS min="3"/>
+        </REQUIREMENTS>
+        <REWARDS>
+          <PACK type="14" name="FOF Pack" count="1"/>
+        </REWARDS>
+      </CHALLENGE>
+    </SET>
+  </SETS>
+
+  <!-- PACK TYPE DEFINITIONS -->
+  <PACK_TYPES>
+    <PACK ID="1" NAME="Gold Pack" TYPE="gold" RARITY="common"/>
+    <PACK ID="2" NAME="Premium Gold Pack" TYPE="gold" RARITY="premium"/>
+    <PACK ID="3" NAME="Prime Gold Players" TYPE="gold" RARITY="prime"/>
+    <PACK ID="4" NAME="Jumbo Premium Gold" TYPE="gold" RARITY="jumbo"/>
+    <PACK ID="5" NAME="82+ Player Pick" TYPE="special" RARITY="pick"/>
+    <PACK ID="6" NAME="85+ Upgrade x10" TYPE="special" RARITY="upgrade"/>
+    <PACK ID="7" NAME="87+ Upgrade x10" TYPE="special" RARITY="upgrade"/>
+    <PACK ID="8" NAME="88+ Player Pick" TYPE="special" RARITY="pick"/>
+    <PACK ID="9" NAME="92+ Player Pick" TYPE="special" RARITY="pick"/>
+    <PACK ID="10" NAME="92+ Icon Moments PP" TYPE="icon" RARITY="icon"/>
+    <PACK ID="11" NAME="FUTTIES Player Pick" TYPE="special" RARITY="futties"/>
+    <PACK ID="12" NAME="Party Bag" TYPE="special" RARITY="party"/>
+    <PACK ID="13" NAME="Summer Stars Pack" TYPE="special" RARITY="summer"/>
+    <PACK ID="14" NAME="FOF Pack" TYPE="special" RARITY="fof"/>
+  </PACK_TYPES>
+
+  <!-- SBC STATE DEFINITIONS -->
+  <STATES>
+    <STATE ID="available" NAME="Available" COLOR="green" CLICKABLE="true"/>
+    <STATE ID="locked" NAME="Locked" COLOR="gray" CLICKABLE="false"/>
+    <STATE ID="completed" NAME="Completed" COLOR="gold" CLICKABLE="true"/>
+    <STATE ID="in_progress" NAME="In Progress" COLOR="blue" CLICKABLE="true"/>
+  </STATES>
+
+</FUT_SBC_SYSTEM>

@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "categories": ["Basic", "Advanced", "League", "Hybrid"],
+  "challenges": [
+    {"id": "basic", "name": "Basic", "category": "Basic", "repeatable": false,
+     "requirements": {"minRating": 65, "chemistry": 20, "players": 11},
+     "rewards": {"packs": [100], "coins": 500, "xp": 150}},
+    {"id": "advanced", "name": "Advanced", "category": "Advanced", "repeatable": true,
+     "requirements": {"minRating": 78, "chemistry": 60, "players": 11},
+     "rewards": {"packs": [300], "coins": 2500, "xp": 300}},
+    {"id": "league_builder", "name": "League Builder", "category": "League", "repeatable": true,
+     "requirements": {"minRating": 72, "chemistry": 45, "players": 11, "uniqueLeaguesMax": 3},
+     "rewards": {"packs": [200], "coins": 1500, "xp": 250}},
+    {"id": "hybrid", "name": "Hybrid", "category": "Hybrid", "repeatable": true,
+     "requirements": {"minRating": 75, "chemistry": 50, "players": 11, "uniqueNationsMin": 4},
+     "rewards": {"packs": [401], "coins": 4000, "xp": 450}}
+  ]
+}

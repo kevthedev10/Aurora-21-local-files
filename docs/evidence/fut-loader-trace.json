@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-25",
+  "target": "FIFA21.exe Ultimate Team entry",
+  "target_sha256": "05CC56F897201A6BA74D608F971BCF157B1A46C10E9CDA335E868C17004FBC71",
+  "observation": {
+    "boundary": "ntdll.dll!LdrLoadDll",
+    "breakpoint_type": "ordinary software breakpoint",
+    "log_fields": [
+      "requested Unicode DLL name",
+      "caller return address"
+    ],
+    "break_condition": "false",
+    "log_cleared_immediately_before_retry": true,
+    "loader_events_before_connection_error": [],
+    "cardsdll_loaded_after_retry": false,
+    "powdll_loaded_after_retry": true
+  },
+  "main_executable_string_scan": {
+    "needle": "CardsDLL_Win64_retail.dll",
+    "encodings": [
+      "ASCII",
+      "UTF-16LE"
+    ],
+    "matches": []
+  },
+  "conclusion": "No invocation of the instrumented LdrLoadDll boundary was observed before the connection error, and CardsDLL remained unloaded. The next trace should inspect an earlier transition, feature-selection, or controller boundary.",
+  "cleanup": "The LdrLoadDll software breakpoint was removed after the observation.",
+  "privacy": "No session pointers, machine paths, payloads, account identifiers, or raw debugger logs are included."
+}

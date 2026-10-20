@@ -1,0 +1,12 @@
+{
+  "active": false,
+  "current_wins": 0,
+  "current_losses": 0,
+  "current_match": 0,
+  "formation": null,
+  "draftId": null,
+  "squad_complete": false,
+  "squad": {"starters": [], "bench": [], "reserves": []},
+  "history": [],
+  "rewards": null
+}

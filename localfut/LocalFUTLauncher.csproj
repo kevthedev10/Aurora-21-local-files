@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultPageItems>false</EnableDefaultPageItems>
+    <AssemblyName>Project21-LocalFUT-Launcher</AssemblyName>
+    <RootNamespace>Project21Launcher</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="LocalFUTLauncher.App.xaml" />
+    <Page Include="LocalFUTLauncher.MainWindow.xaml" />
+    <Compile Include="LocalFUTLauncher.App.xaml.cs" />
+    <Compile Include="LocalFUTLauncher.MainWindow.xaml.cs" />
+    <Compile Include="LocalFUTLauncher.RuntimeCompatibility.cs" />
+    <Resource Include="assets\FIFASetup.png" />
+    <Resource Include="launcherimage.webp" />
+  </ItemGroup>
+</Project>

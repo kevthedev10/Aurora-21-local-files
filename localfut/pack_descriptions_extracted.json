@@ -1,0 +1,1622 @@
+[
+  {
+    "id": 43,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 44,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 45,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 46,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 47,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 48,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 49,
+    "name": "STARTER PACK",
+    "description": "Get your ultimate team started! Includes 34 items with 22 players, 1 manager, 5 club items and 6 consumables. 29 Bronze, 2 Silver and 3 Gold.",
+    "name_mobile": "STARTER PACK"
+  },
+  {
+    "id": 100,
+    "name": "BRONZE PACK",
+    "description": "Great value for increasing club depth. A mix of 12 Bronze items, including players and consumables, 1 Rare. Bronze items are an OVR range up to 64",
+    "name_mobile": "BRONZE PACK"
+  },
+  {
+    "id": 101,
+    "name": "PREMIUM BRONZE PACK",
+    "description": "Triple the Rares of a standard Bronze Pack. A mix of 12 Bronze items, including players and consumables, 3 Rares. Bronze items are an OVR range up to 64",
+    "name_mobile": "PREMIUM BRONZE PACK"
+  },
+  {
+    "id": 102,
+    "name": "JUMBO BRONZE PACK",
+    "description": "Double the size of a standard Bronze Pack with an extra Rare! A mix of 24 Bronze items, including players and consumables, 3 Rares.",
+    "name_mobile": "JUMBO BRONZE PACK"
+  },
+  {
+    "id": 103,
+    "name": "JUMBO PREMIUM BRONZE PACK",
+    "description": "Double the size of a Premium Bronze Pack with an extra Rare! A mix of 24 Bronze items, including players and consumables, 7 Rares.",
+    "name_mobile": "PREMIUM BRONZE JUMBO"
+  },
+  {
+    "id": 104,
+    "name": "BRONZE PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Bronze players, 1 Rare.",
+    "name_mobile": "BRONZE PLAYER PACK"
+  },
+  {
+    "id": 105,
+    "name": "PREMIUM BRONZE PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Bronze players, 3 Rares.",
+    "name_mobile": "BRONZE PLAYERS PREMIUM"
+  },
+  {
+    "id": 106,
+    "name": "BRONZE REWARD PACK",
+    "description": "Smaller and cheaper than a standard Bronze Pack, and going fast! A mix of 4 items, all Bronze with at least 1 player.",
+    "name_mobile": "BRONZE REWARD PACK"
+  },
+  {
+    "id": 107,
+    "name": "PRIME BRONZE PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Bronze players, 6 Rares.",
+    "name_mobile": "PRIME BRONZE PLAYERS"
+  },
+  {
+    "id": 108,
+    "name": "RARE BRONZE PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Bronze players, all Rare.",
+    "name_mobile": "RARE BRONZE PLAYERS"
+  },
+  {
+    "id": 109,
+    "name": "SMALL BRONZE PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Bronze players, 1 Rare.",
+    "name_mobile": "SMALL BRONZE PLAYERS"
+  },
+  {
+    "id": 110,
+    "name": "SMALL PRIME BRONZE PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Bronze players, 3 Rares.",
+    "name_mobile": "SMALL PRIME BRONZE PLAYERS"
+  },
+  {
+    "id": 111,
+    "name": "SMALL RARE BRONZE PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, all Rare, with least 5 Bronze.",
+    "name_mobile": "SMALL RARE BRONZE PLAYERS"
+  },
+  {
+    "id": 200,
+    "name": "SILVER PACK",
+    "description": "Great value for building mid-tiered squads. A mix of 12 Silver items, including players and consumables, 1 Rare. Silver items are an OVR range between 65 and 74",
+    "name_mobile": "SILVER PACK"
+  },
+  {
+    "id": 201,
+    "name": "PREMIUM SILVER PACK",
+    "description": "Triple the Rares of a standard Silver Pack! A mix of 12 Silver items, including players and consumables, 3 Rares. Silver items are an OVR range between 65 and 74",
+    "name_mobile": "PREMIUM SILVER PACK"
+  },
+  {
+    "id": 202,
+    "name": "JUMBO SILVER PACK",
+    "description": "Double the size of a standard Silver Pack with an extra Rare! A mix of 24 Silver items, including players and consumables,  3 Rares.",
+    "name_mobile": "JUMBO SILVER PACK"
+  },
+  {
+    "id": 203,
+    "name": "JUMBO PREMIUM SILVER PACK",
+    "description": "Double the size of a Premium Silver Pack with an extra Rare! A mix of 24 Silver items, including players and consumables,  7 Rares.",
+    "name_mobile": "PREMIUM SILVER JUMBO"
+  },
+  {
+    "id": 204,
+    "name": "SILVER PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Silver players, 1 Rare.",
+    "name_mobile": "SILVER PLAYERS PACK"
+  },
+  {
+    "id": 205,
+    "name": "PREMIUM SILVER PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate Squads! Includes 12 Silver players, 3 Rares.",
+    "name_mobile": "SILVER PLAYERS PREMIUM"
+  },
+  {
+    "id": 206,
+    "name": "SILVER REWARD PACK",
+    "description": "Smaller and cheaper than a standard Silver Pack, and going fast! A mix of 4 items, all Silver with at least 1 player.",
+    "name_mobile": "SILVER REWARD PACK"
+  },
+  {
+    "id": 207,
+    "name": "SILVER UPGRADE PACK",
+    "description": "Your one-time opportunity to upgrade to a Silver team! Includes 12 common Silver items, with 11 players and 1 manager.",
+    "name_mobile": "SILVER UPGRADE"
+  },
+  {
+    "id": 208,
+    "name": "PRIME SILVER PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Silver players, 6 Rares.",
+    "name_mobile": "PRIME SILVER PLAYERS"
+  },
+  {
+    "id": 209,
+    "name": "RARE SILVER PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Silver players, all Rare.",
+    "name_mobile": "RARE SILVER PLAYERS"
+  },
+  {
+    "id": 210,
+    "name": "SMALL SILVER PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Silver players, 1 Rare.",
+    "name_mobile": "SMALL SILVER PLAYERS"
+  },
+  {
+    "id": 211,
+    "name": "SMALL PRIME SILVER PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Silver players, 3 Rares.",
+    "name_mobile": "SMALL PRIME SILVER PLAYERS"
+  },
+  {
+    "id": 212,
+    "name": "SMALL RARE SILVER PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, all Rare, with least 5 Silver.",
+    "name_mobile": "SMALL RARE SILVER PLAYERS"
+  },
+  {
+    "id": 300,
+    "name": "GOLD PACK",
+    "description": "Great value for finding top-rated players. A mix of 12 Gold items, including players and consumables, 1 Rare.",
+    "name_mobile": "GOLD PACK"
+  },
+  {
+    "id": 301,
+    "name": "PREMIUM GOLD PACK",
+    "description": "Triple the Rares of a standard Gold Pack! A mix of 12 Gold items, including players and consumables, 3 Rares.",
+    "name_mobile": "PREMIUM GOLD PACK"
+  },
+  {
+    "id": 302,
+    "name": "JUMBO GOLD PACK",
+    "description": "Double the size of a standard Gold Pack with an extra Rare! A mix of 24 Gold items, including players and consumables, 3 Rares.",
+    "name_mobile": "JUMBO GOLD PACK"
+  },
+  {
+    "id": 303,
+    "name": "JUMBO PREMIUM GOLD PACK",
+    "description": "Double the size of a Premium Gold Pack with an extra Rare! A mix of 24 Gold items, including players and consumables, 7 Rares.",
+    "name_mobile": "PREMIUM GOLD JUMBO"
+  },
+  {
+    "id": 304,
+    "name": "GOLD PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Gold players, 1 Rare.",
+    "name_mobile": "GOLD PLAYERS PACK"
+  },
+  {
+    "id": 305,
+    "name": "PREMIUM GOLD PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Gold players, 3 Rares.",
+    "name_mobile": "GOLD PLAYERS PREMIUM"
+  },
+  {
+    "id": 306,
+    "name": "GOLD REWARD PACK",
+    "description": "Smaller and cheaper than a standard Gold Pack, and going fast! A mix of 4 items, all Gold with at least 1 player.",
+    "name_mobile": "GOLD REWARD PACK"
+  },
+  {
+    "id": 307,
+    "name": "GOLD UPGRADE PACK",
+    "description": "Your one-time opportunity to upgrade to a Gold team! Includes 12 common Gold items, with 11 players and 1 manager.",
+    "name_mobile": "GOLD UPGRADE"
+  },
+  {
+    "id": 308,
+    "name": "PRIME GOLD PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 Gold players, 6 Rares.",
+    "name_mobile": "PRIME GOLD PLAYERS"
+  },
+  {
+    "id": 309,
+    "name": "JUMBO PREMIUM GOLD PLAYERS",
+    "description": "Double the size of a Premium Gold Players Pack with an extra Rare! Includes 24 Gold players, 7 Rares.",
+    "name_mobile": "JUMBO PREMIUM GOLD PLAYERS"
+  },
+  {
+    "id": 310,
+    "name": "GOLD 13 PACK",
+    "description": "A Gold Pack with a bonus item! A mix of 13 Gold items, including players and consumables, 1 Rare.",
+    "name_mobile": "GOLD PACK 13"
+  },
+  {
+    "id": 311,
+    "name": "PREMIUM GOLD 13 PACK",
+    "description": "A Premium Gold Pack with a bonus item! A mix of 13 Gold items, including players and consumables, 3 Rares.",
+    "name_mobile": "PREMIUM GOLD PACK 13"
+  },
+  {
+    "id": 312,
+    "name": "JUMBO GOLD 26 PACK",
+    "description": "A Jumbo Gold Pack with 2 bonus items! A mix of 26 Gold items, including players and consumables, 3 Rares.",
+    "name_mobile": "JUMBO GOLD PACK 26"
+  },
+  {
+    "id": 313,
+    "name": "JUMBO PREMIUM GOLD 26 PACK",
+    "description": "A Premium Jumbo Gold Pack with 2 bonus items! A mix of 26 Gold items, including players and consumables, 7 Rares.",
+    "name_mobile": "PREMIUM JUMBO GOLD PACK 26"
+  },
+  {
+    "id": 314,
+    "name": "SMALL GOLD PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Gold players, 1 Rare.",
+    "name_mobile": "SMALL GOLD PLAYERS"
+  },
+  {
+    "id": 315,
+    "name": "SMALL PRIME GOLD PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 Gold players, 3 Rares.",
+    "name_mobile": "SMALL PRIME GOLD PLAYERS"
+  },
+  {
+    "id": 316,
+    "name": "SMALL RARE GOLD PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, all Rare, with least 5 Gold.",
+    "name_mobile": "SMALL RARE GOLD PLAYERS"
+  },
+  {
+    "id": 400,
+    "name": "RARE GOLD PACK",
+    "description": "The most unique Gold items, all in a single pack! A mix of 12 Gold items, including players and consumables, all Rare.",
+    "name_mobile": "RARE GOLD PACK"
+  },
+  {
+    "id": 401,
+    "name": "RARE PLAYERS PACK",
+    "description": "The most unique top-rated players, all in a single pack! Includes 12 items, all players, all Gold, all Rare.",
+    "name_mobile": "RARE PLAYER PACK"
+  },
+  {
+    "id": 402,
+    "name": "JUMBO RARE PLAYERS PACK",
+    "description": "The most unique top-rated players, all in a single pack! Includes 24 items, all players, all Gold, all Rare.",
+    "name_mobile": "JUMBO RARE PLAYER PACK"
+  },
+  {
+    "id": 403,
+    "name": "MEGA PACK",
+    "description": "The BIGGEST pack yet with a whopping 30, yes THIRTY, items! A mix of players and consumables, all Gold, 18 Rares.",
+    "name_mobile": "MEGA PACK"
+  },
+  {
+    "id": 404,
+    "name": "RARE MEGA PACK",
+    "description": "The BIGGEST pack yet with a whopping 30, yes THIRTY, items! A mix of players and consumables, all Gold, ALL Rare.",
+    "name_mobile": "RARE MEGA PACK"
+  },
+  {
+    "id": 405,
+    "name": "ULTIMATE PACK",
+    "description": "The most unique top-rated players, all in a single pack! Includes 30 items, all players, all Gold, all Rare.",
+    "name_mobile": "ULTIMATE PACK"
+  },
+  {
+    "id": 411,
+    "name": "2-FOR-1 RARE PLAYERS PACK",
+    "description": "A limited time offer! Includes 12 Gold Rare players plus an extra Rare Players Pack to redeem.",
+    "name_mobile": "2-FOR-1 RARE PLAYERS"
+  },
+  {
+    "id": 412,
+    "name": "2-FOR-1 JUMBO RARE PLAYERS PACK",
+    "description": "A limited time offer! Includes 24 Gold Rare players plus an extra Jumbo Rare Players Pack to redeem.",
+    "name_mobile": "2-FOR-1 JUMBO RARE PLAYERS"
+  },
+  {
+    "id": 413,
+    "name": "2-FOR-1 ULTIMATE PACK",
+    "description": "A limited time offer! Includes 30 Gold Rare players plus an extra Ultimate Pack to redeem.",
+    "name_mobile": "2-FOR-1 ULTIMATE PACK"
+  },
+  {
+    "id": 500,
+    "name": "DRAFT TOKEN PACK",
+    "description": "A special pack with 5 items, including 1 Draft Token.",
+    "name_mobile": "DRAFT TOKEN PACK"
+  },
+  {
+    "id": 501,
+    "name": "SINGLE DRAFT TOKEN PACK",
+    "description": "Includes one Draft Token which can be used to enter Draft Mode.",
+    "name_mobile": "SINGLE DRAFT TOKEN PACK"
+  },
+  {
+    "id": 502,
+    "name": "ALL PLAYERS PACK",
+    "description": "Includes 12 players, 4 each of Bronze, Silver, and Gold, with at least 1 Rare.",
+    "name_mobile": "ALL PLAYERS PACK"
+  },
+  {
+    "id": 503,
+    "name": "CONSUMABLES PACK",
+    "description": "Great value for maintaining your squads. Includes 12 consumables, at least 8 Gold with 1 Rare.",
+    "name_mobile": "CONSUMABLE PACK"
+  },
+  {
+    "id": 504,
+    "name": "RARE CONSUMABLES PACK",
+    "description": "The most unique consumables, all in a single pack! Includes 12 consumables, all Gold, all Rare.",
+    "name_mobile": "RARE CONSUMABLE PACK"
+  },
+  {
+    "id": 505,
+    "name": "BRONZE CONTRACTS PACK",
+    "description": "Maintain your squads for a rock bottom price. Includes 4 Bronze contracts.",
+    "name_mobile": "BRONZE CONTRACTS PACK"
+  },
+  {
+    "id": 506,
+    "name": "SILVER CONTRACTS PACK",
+    "description": "Maintain your squads for a rock bottom price. Includes 4 Silver contracts.",
+    "name_mobile": "SILVER CONTRACTS PACK"
+  },
+  {
+    "id": 507,
+    "name": "GOLD CONTRACTS PACK",
+    "description": "Maintain your top-rated squad for a rock bottom price. Includes 4 Gold contracts.",
+    "name_mobile": "GOLD CONTRACTS PACK"
+  },
+  {
+    "id": 508,
+    "name": "MIXED CONTRACTS PACK",
+    "description": "Maintain your squads for a rock bottom price. Includes 4 contracts of mixed quality.",
+    "name_mobile": "MIXED CONTRACTS PACK"
+  },
+  {
+    "id": 509,
+    "name": "TWO SILVER PLAYERS PACK",
+    "description": "Includes 2 Silver Players, one of them rare.",
+    "name_mobile": "TWO SILVER PLAYERS PACK"
+  },
+  {
+    "id": 510,
+    "name": "THREE COMMON GOLD PLAYERS PACK",
+    "description": "Includes 3 Gold Players, all common.",
+    "name_mobile": "THREE COMMON GOLD PLAYERS"
+  },
+  {
+    "id": 511,
+    "name": "TWO PLAYERS PACK",
+    "description": "Includes 2 Players, one of them rare.",
+    "name_mobile": "TWO PLAYERS PACK"
+  },
+  {
+    "id": 512,
+    "name": "TWO RARE GOLD PLAYERS PACK",
+    "description": "Includes 2 Gold Rare Players.",
+    "name_mobile": "TWO RARE GOLD PLAYERS PACK"
+  },
+  {
+    "id": 513,
+    "name": "82+ RATED RARE PLAYER",
+    "description": "Guarantees a Rare Gold player rated 82 or higher.",
+    "name_mobile": "82+ RATED RARE PLAYER"
+  },
+  {
+    "id": 514,
+    "name": "81+ TWO RARE GOLD PLAYERS",
+    "description": "Guarantees 2 Rare Gold players rated 81 or higher.",
+    "name_mobile": "81+ TWO RARE GOLD PLAYERS"
+  },
+  {
+    "id": 515,
+    "name": "ELECTRUM PLAYERS PACK",
+    "description": "A hybrid pack with a split of Gold and Silver players! Includes 12 players, 6 Gold, 6 Silver, with 1 Rare.",
+    "name_mobile": "ELECTRUM PLAYERS PACK"
+  },
+  {
+    "id": 516,
+    "name": "PREMIUM ELECTRUM PLAYERS PACK",
+    "description": "A hybrid pack with a split of Gold and Silver players! Includes 12 players, 6 Gold, 6 Silver, with 3 Rares.",
+    "name_mobile": "PREMIUM ELECTRUM PLAYERS"
+  },
+  {
+    "id": 517,
+    "name": "PRIME ELECTRUM PLAYERS PACK",
+    "description": "A hybrid pack with a split of Gold and Silver players! Includes 12 players, 6 Gold, 6 Silver, with 6 Rares.",
+    "name_mobile": "PRIME ELECTRUM PLAYERS"
+  },
+  {
+    "id": 518,
+    "name": "RARE ELECTRUM PLAYERS PACK",
+    "description": "A hybrid pack with a split of Gold and Silver players! Includes 12 players, 6 Gold, 6 Silver, ALL Rares.",
+    "name_mobile": "RARE ELECTRUM PLAYERS"
+  },
+  {
+    "id": 519,
+    "name": "SMALL ELECTRUM PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 3 Gold, 3 Silver, with 1 Rare.",
+    "name_mobile": "SMALL ELECTRUM PLAYERS"
+  },
+  {
+    "id": 520,
+    "name": "SMALL PRIME ELECTRUM PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 3 Gold, 3 Silver, with 3 Rares.",
+    "name_mobile": "SMALL PRIME ELECTRUM PLAYERS"
+  },
+  {
+    "id": 521,
+    "name": "SMALL RARE ELECTRUM PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 3 Gold, 3 Silver, with 6 Rares.",
+    "name_mobile": "SMALL RARE ELECTRUM PLAYERS"
+  },
+  {
+    "id": 522,
+    "name": "UNUSED STORY MODE PACK",
+    "description": "UNUSED STORY MODE PACK",
+    "name_mobile": "UNUSED STORY MODE PACK"
+  },
+  {
+    "id": 523,
+    "name": "83+ LOAN PLAYER PACK",
+    "description": "Receive an 83+ midfielder on loan from either the PL, LaLiga or Bundesliga",
+    "name_mobile": "83+ LOAN PLAYER PACK"
+  },
+  {
+    "id": 524,
+    "name": "REWARD PACK",
+    "description": "A Free Reward!",
+    "name_mobile": "REWARD PACK"
+  },
+  {
+    "id": 525,
+    "name": "COINS PACK",
+    "description": "A special pack with 2 Coin items, with a minimum of 2,000 coin value guaranteed!",
+    "name_mobile": "COINS PACK"
+  },
+  {
+    "id": 526,
+    "name": "PREMIUM COINS PACK",
+    "description": "A special pack with 2 Coin items, with a minimum of 4,000 coin value guaranteed!",
+    "name_mobile": "PREMIUM COINS PACK"
+  },
+  {
+    "id": 527,
+    "name": "MYSTERY PACK",
+    "description": "What could it be? It might be Coins or a Pack!",
+    "name_mobile": "MYSTERY PACK"
+  },
+  {
+    "id": 528,
+    "name": "PREMIUM MYSTERY PACK",
+    "description": "Even better than a Mystery Pack. It might be Coins, a Draft Token, or a Pack!",
+    "name_mobile": "PREMIUM MYSTERY PACK"
+  },
+  {
+    "id": 529,
+    "name": "ONES TO WATCH PACK",
+    "description": "A guaranteed Ones to Watch item! Includes 12 players, all Gold, with 3 Rares.",
+    "name_mobile": "ONES TO WATCH PACK"
+  },
+  {
+    "id": 530,
+    "name": "FUTURE OF FOOTBALL LOAN PLAYER PACK",
+    "description": "Includes one of the following Players on an 8 match loan: Eden Hazard, Anthony Martial, Marco Reus, or James Rodríguez.",
+    "name_mobile": "FUTURE OF FOOTBALL PACK"
+  },
+  {
+    "id": 531,
+    "name": "MLS STAR SBC PACK",
+    "description": "Guarantees a special SBC version of an MLS player.",
+    "name_mobile": "MLS STAR SBC PACK"
+  },
+  {
+    "id": 533,
+    "name": "VALUE PACK 5",
+    "description": "Get this limited edition FUT Pack while supplies last",
+    "name_mobile": "VALUE PACK 5"
+  },
+  {
+    "id": 534,
+    "name": "MIXED PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 players, 4 Gold, 4 Silver, 4 Bronze, with 1 Rare.",
+    "name_mobile": "MIXED PLAYERS"
+  },
+  {
+    "id": 535,
+    "name": "PREMIUM MIXED PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 players, 4 Gold, 4 Silver, 4 Bronze, with 3 Rares.",
+    "name_mobile": "PREMIUM MIXED PLAYERS"
+  },
+  {
+    "id": 536,
+    "name": "PRIME MIXED PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 players, 4 Gold, 4 Silver, 4 Bronze, with 6 Rares.",
+    "name_mobile": "PRIME MIXED PLAYERS"
+  },
+  {
+    "id": 537,
+    "name": "RARE MIXED PLAYERS PACK",
+    "description": "Nothing but players to build out your ultimate squads! Includes 12 players, 4 Gold, 4 Silver, 4 Bronze, all Rare.",
+    "name_mobile": "RARE MIXED PLAYERS"
+  },
+  {
+    "id": 538,
+    "name": "SMALL MIXED PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 2 Gold, 2 Silver, 2 Bronze, with 1 Rare.",
+    "name_mobile": "SMALL MIXED PLAYERS"
+  },
+  {
+    "id": 539,
+    "name": "SMALL PRIME MIXED PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 2 Gold, 2 Silver, 2 Bronze, with 3 Rares.",
+    "name_mobile": "SMALL PRIME MIXED PLAYERS"
+  },
+  {
+    "id": 540,
+    "name": "SMALL RARE MIXED PLAYERS PACK",
+    "description": "Half a dozen players to build out your ultimate squads! Includes 6 players, 2 Gold, 2 Silver, 2 Bronze, all Rare.",
+    "name_mobile": "SMALL RARE MIXED PLAYERS"
+  },
+  {
+    "id": 541,
+    "name": "MIXED PLAYER",
+    "description": "Contains one Player: Bronze, Silver, or Gold; Common or Rare.",
+    "name_mobile": "MIXED PLAYER"
+  },
+  {
+    "id": 550,
+    "name": "FUT REVEAL PACK I",
+    "description": "A special pack for FUT Reveal.",
+    "name_mobile": "FUT REVEAL PACK I"
+  },
+  {
+    "id": 551,
+    "name": "FUT REVEAL PACK II",
+    "description": "A special pack for FUT Reveal",
+    "name_mobile": "FUT REVEAL PACK II"
+  },
+  {
+    "id": 552,
+    "name": "PREMIUM GOLD PACK",
+    "description": "Triple the Rares of a standard Gold Pack! A mix of 12 Gold items, including players and consumables, 3 Rares.",
+    "name_mobile": "PREMIUM GOLD PACK"
+  },
+  {
+    "id": 700,
+    "name": "LOAN PLAYER REWARD PACK",
+    "description": "A mix of four items including a Player rated 75-80 on Loan.",
+    "name_mobile": "LOAN PLAYER REWARD PACK"
+  },
+  {
+    "id": 701,
+    "name": "PREMIUM LOAN PLAYER REWARD PACK",
+    "description": "A mix of four items including a Player rated 81-85 on Loan.",
+    "name_mobile": "PREMIUM LOAN PLAYER REWARD PACK"
+  },
+  {
+    "id": 702,
+    "name": "ULTIMATE LOAN PLAYER REWARD PACK",
+    "description": "A mix of four items including a Player rated 86-90 on Loan.",
+    "name_mobile": "ULTIMATE LOAN PLAYER REWARD PACK"
+  },
+  {
+    "id": 703,
+    "name": "LOAN MESSI REWARD PACK",
+    "description": "A mix of four items including Lionel Messi on Loan.",
+    "name_mobile": "LOAN MESSI REWARD PACK"
+  },
+  {
+    "id": 704,
+    "name": "LOAN RONALDO REWARD PACK",
+    "description": "A mix of four items including Cristiano Ronaldo on Loan.",
+    "name_mobile": "LOAN RONALDO REWARD PACK"
+  },
+  {
+    "id": 705,
+    "name": "LOAN IBRAHIMOVIĆ REWARD PACK",
+    "description": "A mix of four items including Zlatan Ibrahimović on Loan.",
+    "name_mobile": "LOAN IBRAHIMOVIĆ REWARD PACK"
+  },
+  {
+    "id": 706,
+    "name": "LOAN ICON PACK",
+    "description": "A free reward pack, including 11 bronze players and features one Icon on loan!",
+    "name_mobile": "LOAN ICON PACK"
+  },
+  {
+    "id": 707,
+    "name": "GOLD LOAN ICONS PACK",
+    "description": "An exclusive pack featuring 1 Icon on loan and a variety of Gold items.",
+    "name_mobile": "GOLD LOAN ICONS PACK"
+  },
+  {
+    "id": 708,
+    "name": "3 LOAN ICONS PACK",
+    "description": "An exclusive pack featuring 3 Icons on loan and a variety of items to get you started.",
+    "name_mobile": "3 LOAN ICONS PACK"
+  },
+  {
+    "id": 709,
+    "name": "LOAN TOTW PACK",
+    "description": "Includes 1 Team of the Week Player on loan for 3 matches.",
+    "name_mobile": "LOAN TOTW PACK"
+  },
+  {
+    "id": 710,
+    "name": "DOUBLE LOAN TOTW PACK",
+    "description": "Includes 2 Team of the Week Players on loan for 3 matches.",
+    "name_mobile": "2x LOAN TOTW PACK"
+  },
+  {
+    "id": 711,
+    "name": "LOAN PLAYER PACK I (MLS / MADRID)",
+    "description": "This reward is from The Journey, includes a player from the MLS and a player from Real Madrid",
+    "name_mobile": "LOAN PACK I"
+  },
+  {
+    "id": 712,
+    "name": "LOAN PLAYER PACK II (MLS)",
+    "description": "This reward from The Journey includes 3 players from the MLS.",
+    "name_mobile": "LOAN PACK II"
+  },
+  {
+    "id": 713,
+    "name": "LOAN PLAYER PACK III",
+    "description": "This reward from The Journey includes your strike partner.",
+    "name_mobile": "LOAN PACK III"
+  },
+  {
+    "id": 714,
+    "name": "LOAN PLAYER PACK IV (87+)",
+    "description": "This reward from The Journey includes 1 player rated 87 or higher on loan for 7 matches.",
+    "name_mobile": "LOAN PACK IV"
+  },
+  {
+    "id": 715,
+    "name": "BETA PLAYERS PACK",
+    "description": "Includes 12 Gold players with 1 Rare.",
+    "name_mobile": "BETA PLAYERS PACK"
+  },
+  {
+    "id": 716,
+    "name": "BETA PREMIUM PLAYERS PACK",
+    "description": "Includes 12 Gold players with 3 Rares.",
+    "name_mobile": "BETA PREMIUM PLAYERS PACK"
+  },
+  {
+    "id": 800,
+    "name": "PL PREMIUM GOLD PACK",
+    "description": "Three PL players guaranteed! A mix of 12 Gold items including 3 Rares.",
+    "name_mobile": "PL PREMIUM GOLD"
+  },
+  {
+    "id": 801,
+    "name": "LIGUE 1 PREMIUM GOLD PACK",
+    "description": "Three Ligue 1 players guaranteed! A mix of 12 Gold items including 3 Rares.",
+    "name_mobile": "LIGUE 1 PREMIUM GOLD"
+  },
+  {
+    "id": 802,
+    "name": "SERIE A PREMIUM GOLD PACK",
+    "description": "Three Serie A players guaranteed! A mix of 12 Gold items including 3 Rares.",
+    "name_mobile": "SERIE A PREMIUM GOLD"
+  },
+  {
+    "id": 803,
+    "name": "LALIGA PREMIUM GOLD PACK",
+    "description": "Three LaLiga players guaranteed! A mix of 12 Gold items including 3 Rares.",
+    "name_mobile": "LALIGA PREMIUM GOLD"
+  },
+  {
+    "id": 804,
+    "name": "BUNDESLIGA PREMIUM GOLD PACK",
+    "description": "Three Bundesliga players guaranteed! A mix of 12 Gold items including 3 Rares.",
+    "name_mobile": "BUNDESLIGA PREMIUM GOLD"
+  },
+  {
+    "id": 810,
+    "name": "PL PREMIUM PLAYERS PACK",
+    "description": "Nothing but players to build out your PL squads! Includes 12 PL Gold players, 3 Rares.",
+    "name_mobile": "PL PREMIUM PLAYERS"
+  },
+  {
+    "id": 811,
+    "name": "LIGUE 1 PREMIUM PLAYERS PACK",
+    "description": "Nothing but players to build out your Ligue 1 squads! Includes 12 Ligue 1 Gold players, 3 Rares.",
+    "name_mobile": "LIGUE 1 PREMIUM PLAYERS"
+  },
+  {
+    "id": 812,
+    "name": "SERIE A PREMIUM PLAYERS PACK",
+    "description": "Nothing but players to build out your Serie A squads! Includes 12 Serie A Gold players, 3 Rares.",
+    "name_mobile": "SERIE A PREMIUM PLAYERS"
+  },
+  {
+    "id": 813,
+    "name": "LALIGA PREMIUM PLAYERS PACK",
+    "description": "Nothing but players to build out your LaLiga squads! Includes 12 LaLiga Gold players, 3 Rares.",
+    "name_mobile": "LALIGA PREMIUM PLAYERS"
+  },
+  {
+    "id": 814,
+    "name": "BUNDESLIGA PREMIUM PLAYERS PACK",
+    "description": "Nothing but players to build out your Bundesliga squads! Includes 12 Bundesliga Gold players, 3 Rares.",
+    "name_mobile": "BUNDESLIGA PREMIUM PLAYERS"
+  },
+  {
+    "id": 820,
+    "name": "PL PRIME PLAYERS PACK",
+    "description": "Nothing but players to build out your PL squads! Includes 12 PL Gold players, 6 Rares.",
+    "name_mobile": "PL PRIME PLAYERS"
+  },
+  {
+    "id": 821,
+    "name": "LIGUE 1 PRIME PLAYERS PACK",
+    "description": "Nothing but players to build out your Ligue 1 squads! Includes 12 Ligue 1 Gold players, 6 Rares.",
+    "name_mobile": "LIGUE 1 PRIME PLAYERS"
+  },
+  {
+    "id": 822,
+    "name": "SERIE A PRIME PLAYERS PACK",
+    "description": "Nothing but players to build out your Serie A squads! Includes 12 Serie A Gold players, 6 Rares.",
+    "name_mobile": "SERIE A PRIME PLAYERS"
+  },
+  {
+    "id": 823,
+    "name": "LALIGA PRIME PLAYERS PACK",
+    "description": "Nothing but players to build out your LaLiga squads! Includes 12 LaLiga Gold players, 6 Rares.",
+    "name_mobile": "LALIGA PRIME PLAYERS"
+  },
+  {
+    "id": 824,
+    "name": "BUNDESLIGA PRIME PLAYERS PACK",
+    "description": "Nothing but players to build out your Bundesliga squads! Includes 12 Bundesliga Gold players, 6 Rares.",
+    "name_mobile": "BUNDESLIGA PRIME PLAYERS"
+  },
+  {
+    "id": 830,
+    "name": "PL SQUAD PACK",
+    "description": "Get your PL squad started! Includes 18 PL Gold players, 1 Rare.",
+    "name_mobile": "PL SQUAD PACK"
+  },
+  {
+    "id": 831,
+    "name": "LIGUE 1 SQUAD PACK",
+    "description": "Get your Ligue 1 squad started! Includes 18 Ligue 1 Gold players, 1 Rare.",
+    "name_mobile": "LIGUE 1 SQUAD PACK"
+  },
+  {
+    "id": 832,
+    "name": "SERIE A SQUAD PACK",
+    "description": "Get your Serie A squad started! Includes 18 Serie A Gold players, 1 Rare.",
+    "name_mobile": "SERIE A SQUAD PACK"
+  },
+  {
+    "id": 833,
+    "name": "LALIGA SQUAD PACK",
+    "description": "Get your LaLiga squad started! Includes 18 LaLiga Gold players, 1 Rare.",
+    "name_mobile": "LALIGA SQUAD PACK"
+  },
+  {
+    "id": 834,
+    "name": "BUNDESLIGA SQUAD PACK",
+    "description": "Get your Bundesliga squad started! Includes 18 Bundesliga Gold players, 1 Rare.",
+    "name_mobile": "BUNDESLIGA SQUAD PACK"
+  },
+  {
+    "id": 840,
+    "name": "PL TRIAL PACK",
+    "description": "Get your PL squad started! Contains 18 PL Gold players, including 3 Rare Loan players rated 82 or higher.",
+    "name_mobile": "PL TRIAL PACK"
+  },
+  {
+    "id": 841,
+    "name": "LIGUE 1 TRIAL PACK",
+    "description": "Get your Ligue 1 squad started! Contains 18 Ligue 1 Gold players, including 3 Rare Loan players rated 82 or higher.",
+    "name_mobile": "LIGUE 1 TRIAL PACK"
+  },
+  {
+    "id": 842,
+    "name": "SERIE A TRIAL PACK",
+    "description": "Get your Serie A squad started! Contains 18 Serie A Gold players, including 3 Rare Loan players rated 82 or higher.",
+    "name_mobile": "SERIE A TRIAL PACK"
+  },
+  {
+    "id": 843,
+    "name": "LALIGA TRIAL PACK",
+    "description": "Get your LaLiga squad started! Contains 18 LaLiga Gold players, including 3 Rare Loan players rated 82 or higher.",
+    "name_mobile": "LALIGA TRIAL PACK"
+  },
+  {
+    "id": 844,
+    "name": "BUNDESLIGA TRIAL PACK",
+    "description": "Get your Bundesliga squad started! Contains 18 Bundesliga Gold players, including 3 Rare Loan players rated 82 or higher.",
+    "name_mobile": "BUNDESLIGA TRIAL PACK"
+  },
+  {
+    "id": 851,
+    "name": "ULTIMATE SCREAM PLAYER",
+    "description": "Guarantees 1 Ultimate Scream player. Spooky!",
+    "name_mobile": "ULTIMATE SCREAM PLAYER"
+  },
+  {
+    "id": 860,
+    "name": "RARE GOLD FORWARDS PACK",
+    "description": "Nothing but Forwards to bolster your attack! 12 Gold Forward Players, all Rare.",
+    "name_mobile": "RARE GOLD FORWARDS PACK"
+  },
+  {
+    "id": 861,
+    "name": "RARE GOLD MIDFIELDERS PACK",
+    "description": "Best pack to strengthen your midfield! 12 Gold Midfield Players, all Rare.",
+    "name_mobile": "RARE GOLD MIDFIELDERS PACK"
+  },
+  {
+    "id": 862,
+    "name": "RARE GOLD DEFENDERS PACK",
+    "description": "Ideal pack to fortify your defence! 12 Gold Defenders, all Rare. (CB,LB,RB,LWB,RWB,GK)",
+    "name_mobile": "RARE GOLD DEFENDERS PACK"
+  },
+  {
+    "id": 863,
+    "name": "PRIME GOLD FORWARDS PACK",
+    "description": "12 Gold Forwards to bolster your attack! 12 Gold Forward Players, 6 Rares.",
+    "name_mobile": "PRIME GOLD FORWARDS PACK"
+  },
+  {
+    "id": 864,
+    "name": "PRIME GOLD MIDFIELDERS PACK",
+    "description": "12 Gold Midfielders to strengthen your midfield! 12 Gold Midfield Players, 6 Rares.",
+    "name_mobile": "PRIME GOLD MIDFIELDERS PACK"
+  },
+  {
+    "id": 865,
+    "name": "PRIME GOLD DEFENDERS PACK",
+    "description": "12 Gold Defenders to fortify your defence! 12 Gold Defenders, 6 Rares. (CB,LB,RB,LWB,RWB,GK)",
+    "name_mobile": "PRIME GOLD DEFENDERS PACK"
+  },
+  {
+    "id": 866,
+    "name": "PL THREE GOLD PLAYERS",
+    "description": "Includes 3 Gold Premier League Players, 1 Rare",
+    "name_mobile": "PL THREE GOLD PLAYERS"
+  },
+  {
+    "id": 867,
+    "name": "PL TWO 81+ PLAYERS",
+    "description": "Guarantees two Rare Gold Premier League players rated 81 or higher.",
+    "name_mobile": "PL TWO 81+ PLAYERS"
+  },
+  {
+    "id": 868,
+    "name": "LIGUE 1 THREE PLAYERS",
+    "description": "Includes 3 Gold Ligue 1 Conforama Players, 1 Rare",
+    "name_mobile": "LIGUE 1 THREE PLAYERS"
+  },
+  {
+    "id": 869,
+    "name": "LIGUE 1 TWO 81+ PLAYERS",
+    "description": "Guarantees two Rare Gold Ligue 1 Conforama players rated 81 or higher.",
+    "name_mobile": "LIGUE 1 TWO 81+ PLAYERS"
+  },
+  {
+    "id": 870,
+    "name": "SERIE A THREE PLAYERS",
+    "description": "Includes 3 Gold Serie A Players, 1 Rare",
+    "name_mobile": "SERIE A THREE PLAYERS"
+  },
+  {
+    "id": 871,
+    "name": "SERIE A TWO 81+ PLAYERS",
+    "description": "Guarantees two Rare Gold Serie A players rated 81 or higher.",
+    "name_mobile": "SERIE A TWO 81+ PLAYERS"
+  },
+  {
+    "id": 872,
+    "name": "BUNDESLIGA THREE PLAYERS",
+    "description": "Includes 3 Gold Bundesliga Players, 1 Rare",
+    "name_mobile": "BUNDESLIGA THREE PLAYERS"
+  },
+  {
+    "id": 873,
+    "name": "BUNDESLIGA TWO 81+ PLAYERS",
+    "description": "Guarantees two Rare Gold Bundesliga players rated 81 or higher.",
+    "name_mobile": "BUNDESLIGA TWO 81+ PLAYERS"
+  },
+  {
+    "id": 874,
+    "name": "LALIGA THREE PLAYERS",
+    "description": "Includes 3 Gold LaLiga Santander Players, 1 Rare",
+    "name_mobile": "LALIGA THREE PLAYERS"
+  },
+  {
+    "id": 875,
+    "name": "LALIGA TWO 81+ PLAYERS",
+    "description": "Guarantees two Rare Gold LaLiga Santander players rated 81 or higher.",
+    "name_mobile": "LALIGA TWO 81+ PLAYERS"
+  },
+  {
+    "id": 900,
+    "name": "PREMIUM TOTW PACK",
+    "description": "Guarantees 3 Team of the Week players!",
+    "name_mobile": "PREMIUM TOTW PACK"
+  },
+  {
+    "id": 901,
+    "name": "ULTIMATE TOTW PACK",
+    "description": "Guarantees 11 Team of the Week players!",
+    "name_mobile": "ULTIMATE TOTW PACK"
+  },
+  {
+    "id": 902,
+    "name": "PREMIUM CHAMPIONS TOTW PACK",
+    "description": "Guarantees 12 exclusive FUT Champions versions of Team of the Week players from the past month!",
+    "name_mobile": "PREMIUM CHAMPIONS TOTW"
+  },
+  {
+    "id": 903,
+    "name": "ULTIMATE CHAMPIONS TOTW PACK",
+    "description": "Guarantees 44 exclusive FUT Champions versions of Team of the Week players from the past month!",
+    "name_mobile": "ULTIMATE CHAMPIONS TOTW"
+  },
+  {
+    "id": 904,
+    "name": "UCL COMMON PLAYER",
+    "description": "Guarantees a UEFA Champions League Common player item",
+    "name_mobile": "UCL COMMON PLAYER"
+  },
+  {
+    "id": 905,
+    "name": "UCL RARE PLAYER",
+    "description": "Guarantees a UEFA Champions League Rare player item",
+    "name_mobile": "UCL RARE PLAYER"
+  },
+  {
+    "id": 906,
+    "name": "UCL TWO PLAYER PACK",
+    "description": "Includes two UEFA Champions League Players, one of them Rare.",
+    "name_mobile": "UCL TWO PLAYER PACK"
+  },
+  {
+    "id": 907,
+    "name": "UCL THREE PLAYER PACK",
+    "description": "Includes three UEFA Champions League Players, one of them Rare.",
+    "name_mobile": "UCL THREE PLAYER PACK"
+  },
+  {
+    "id": 908,
+    "name": "TWO UCL COMMON PLAYER PACK",
+    "description": "Contains two UEFA Champions League Common players",
+    "name_mobile": "TWO UCL COMMON PLAYER PACK"
+  },
+  {
+    "id": 909,
+    "name": "81+ UCL RARE PLAYER",
+    "description": "Contains a UEFA Champions League Rare player with a mininum 81 OVR",
+    "name_mobile": "81+ UCL RARE PLAYER"
+  },
+  {
+    "id": 910,
+    "name": "PREMIUM PL TOTS PACK",
+    "description": "Guarantees 3 Premier League Team of the Season Players!",
+    "name_mobile": "PREMIUM PL TOTS PACK"
+  },
+  {
+    "id": 911,
+    "name": "ULTIMATE PL TOTS PACK",
+    "description": "Guarantees 11 Premier League Team of the Season Players!",
+    "name_mobile": "ULTIMATE PL TOTS PACK"
+  },
+  {
+    "id": 912,
+    "name": "PREMIUM BUNDESLIGA TOTS PACK",
+    "description": "Guarantees 3 Bundesliga Team of the Season Players!",
+    "name_mobile": "PREMIUM BUNDESLIGA TOTS PACK"
+  },
+  {
+    "id": 913,
+    "name": "ULTIMATE BUNDESLIGA TOTS PACK",
+    "description": "Guarantees 11 Bundesliga Team of the Season Players!",
+    "name_mobile": "ULTIMATE BUNDESLIGA TOTS PACK"
+  },
+  {
+    "id": 914,
+    "name": "PREMIUM LALIGA TOTS PACK",
+    "description": "Guarantees 3 LaLiga Team of the Season Players!",
+    "name_mobile": "PREMIUM LALIGA TOTS PACK"
+  },
+  {
+    "id": 915,
+    "name": "ULTIMATE LALIGA TOTS PACK",
+    "description": "Guarantees 11 LaLiga Team of the Season Players!",
+    "name_mobile": "ULTIMATE LALIGA TOTS PACK"
+  },
+  {
+    "id": 916,
+    "name": "PREMIUM SERIE A TOTS PACK",
+    "description": "Guarantees 3 Serie A Team of the Season Players!",
+    "name_mobile": "PREMIUM SERIE A TOTS PACK"
+  },
+  {
+    "id": 917,
+    "name": "ULTIMATE SERIE A TOTS PACK",
+    "description": "Guarantees 11 Serie A Team of the Season Players!",
+    "name_mobile": "ULTIMATE SERIE A TOTS PACK"
+  },
+  {
+    "id": 918,
+    "name": "PREMIUM LIGUE 1 TOTS PACK",
+    "description": "Guarantees 3 Ligue 1 Team of the Season Players!",
+    "name_mobile": "PREMIUM LIGUE 1 TOTS PACK"
+  },
+  {
+    "id": 919,
+    "name": "ULTIMATE LIGUE 1 TOTS PACK",
+    "description": "Guarantees 11 Ligue 1 Team of the Season Players!",
+    "name_mobile": "ULTIMATE LIGUE 1 TOTS PACK"
+  },
+  {
+    "id": 920,
+    "name": "PREMIUM TOTS PACK",
+    "description": "Guarantees 3 Team of the Season Players from the Ultimate TOTS squad!",
+    "name_mobile": "PREMIUM TOTS PACK"
+  },
+  {
+    "id": 921,
+    "name": "ULTIMATE TOTS PACK",
+    "description": "Guarantees 11 Team of the Season Players from the Ultimate TOTS squad!",
+    "name_mobile": "ULTIMATE TOTS PACK"
+  },
+  {
+    "id": 922,
+    "name": "TOTS 3 PLAYERS PACK",
+    "description": "Guarantees 3 Team of the Season Players from Community, PL, Bundesliga, LaLiga, Serie A,and Ligue1 TOTS squad!",
+    "name_mobile": "TOTS 3 PLAYERS PACK"
+  },
+  {
+    "id": 923,
+    "name": "TOTS 11 PLAYERS PACK",
+    "description": "Guarantees 11 Team of the Season Players from Community, PL, Bundesliga, LaLiga, Serie A, and Ligue1 TOTS squad!",
+    "name_mobile": "TOTS 11 PLAYERS PACK"
+  },
+  {
+    "id": 1000,
+    "name": "CUSTOM ESPORTS TEAM KITS PACK",
+    "description": "Includes 13 custom FUT kits created by esports teams from around the world",
+    "name_mobile": "CUSTOM ESPORTS TEAM KITS"
+  },
+  {
+    "id": 1001,
+    "name": "WELCOME PACK",
+    "description": "Welcome to FUT! Contains 1 Loan Icon Player Pick, 1 Loan Team of the Week Player, 1 Loan UEFA Champions League Player Pick, and 1 81-83 OVR Rare Gold Player Pick",
+    "name_mobile": "WELCOME PACK"
+  },
+  {
+    "id": 1002,
+    "name": "UCL PLAYER PACK",
+    "description": "Contains 5 UEFA Champions League players with a maximum OVR of 85.",
+    "name_mobile": "UCL PLAYER PACK"
+  },
+  {
+    "id": 1004,
+    "name": "UCL KITS PACK",
+    "description": "Contains 4 UEFA Champions League kits",
+    "name_mobile": "UCL KITS PACK"
+  },
+  {
+    "id": 1005,
+    "name": "LOAN PLAYER",
+    "description": "Contains one of Neymar, Kevin De Bruyne, or Dybala as a 10 game loan.",
+    "name_mobile": "LOAN PLAYER"
+  },
+  {
+    "id": 1006,
+    "name": "ONES TO WATCH SUMMER PLAYER",
+    "description": "Guarantees a player from the Ones to Watch Summer Squad.",
+    "name_mobile": "ONES TO WATCH SUMMER PLAYER"
+  },
+  {
+    "id": 1007,
+    "name": "ONES TO WATCH PLAYER",
+    "description": "Guarantees a Ones to Watch Player",
+    "name_mobile": "ONES TO WATCH PLAYER"
+  },
+  {
+    "id": 1008,
+    "name": "BASE ICON PLAYER",
+    "description": "Guarantees a Base Icon (lowest OVR version of an Icon).",
+    "name_mobile": "BASE ICON PLAYER"
+  },
+  {
+    "id": 1009,
+    "name": "LOAN PRIME ICON MOMENTS",
+    "description": "Contains a Prime Icon Moments player on a 7 game loan",
+    "name_mobile": "LOAN PRIME ICON MOMENTS"
+  },
+  {
+    "id": 1010,
+    "name": "81-86 RATED RARE PLAYER",
+    "description": "Guarantees a Rare Gold player rated 81 - 86",
+    "name_mobile": "81-86 RATED RARE PLAYER"
+  },
+  {
+    "id": 1011,
+    "name": "82-87 RATED RARE PLAYER",
+    "description": "Guarantees a Rare Gold player rated 82 - 87",
+    "name_mobile": "82-87 RATED RARE PLAYER"
+  },
+  {
+    "id": 1012,
+    "name": "MID ICON PLAYER",
+    "description": "Guarantees a Mid Icon (second lowest OVR version of an Icon).",
+    "name_mobile": "MID ICON PLAYER"
+  },
+  {
+    "id": 1013,
+    "name": "83-86 RATED FUT CHAMPIONS PLAYER",
+    "description": "Guarantees a FUT Champions player rated 83 - 86",
+    "name_mobile": "83-86 RATED FUT CHAMPIONS"
+  },
+  {
+    "id": 1014,
+    "name": "UCL PREMIUM PLAYER",
+    "description": "Contains a UEFA Champions League Man of the Match, Road to the Final, or Team of the Tournament player.",
+    "name_mobile": "UCL PREMIUM PLAYER"
+  },
+  {
+    "id": 1015,
+    "name": "Flashback Player",
+    "description": "Contains 1 Flashback Player released from October 2018 through to March 2019",
+    "name_mobile": "Flashback Player"
+  },
+  {
+    "id": 1016,
+    "name": "Community TOTS Pack",
+    "description": "Contains 1 Team of the Season player from the Community Team of the Season squad",
+    "name_mobile": "Community TOTS Pack"
+  },
+  {
+    "id": 1017,
+    "name": "PL TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Premier League Team of the Season squad",
+    "name_mobile": "PL TOTS PLAYER"
+  },
+  {
+    "id": 1018,
+    "name": "BUNDESLIGA TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Bundesliga Team of the Season squad",
+    "name_mobile": "BUNDESLIGA TOTS PLAYER"
+  },
+  {
+    "id": 1019,
+    "name": "LALIGA TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the LaLiga Team of the Season squad",
+    "name_mobile": "LALIGA TOTS PLAYER"
+  },
+  {
+    "id": 1020,
+    "name": "Serie A TOTS Player",
+    "description": "Contains 1 Team of the Season player from the Serie A Team of the Season squad",
+    "name_mobile": "Serie A TOTS Player"
+  },
+  {
+    "id": 1021,
+    "name": "LIGUE 1 TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Ligue 1 Team of the Season squad",
+    "name_mobile": "LIGUE 1 TOTS PLAYER"
+  },
+  {
+    "id": 1022,
+    "name": "ULTIMATE TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Ultimate Team of the Season squad",
+    "name_mobile": "ULTIMATE TOTS PLAYER"
+  },
+  {
+    "id": 1023,
+    "name": "EFL TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the EFL Team of the Season squad",
+    "name_mobile": "EFL TOTS PLAYER"
+  },
+  {
+    "id": 1024,
+    "name": "SAUDI PROFESSIONAL LEAGUE TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Saudi Professional League Team of the Season squad",
+    "name_mobile": "SAUDI PROFESSIONAL LEAGUE TOTS PLAYER"
+  },
+  {
+    "id": 1025,
+    "name": "LIGA NOS TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Liga NOS Team of the Season squad",
+    "name_mobile": "LIGA NOS TOTS PLAYER"
+  },
+  {
+    "id": 1026,
+    "name": "SUPER LIG TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Super Lig Team of the Season squad",
+    "name_mobile": "SUPER LIG TOTS PLAYER"
+  },
+  {
+    "id": 1027,
+    "name": "EREDIVISIE TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Eredivisie Team of the Season squad",
+    "name_mobile": "EREDIVISIE TOTS PLAYER"
+  },
+  {
+    "id": 1028,
+    "name": "LATAM TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the LATAM Team of the Season squad",
+    "name_mobile": "LATAM TOTS PLAYER"
+  },
+  {
+    "id": 1029,
+    "name": "ROW TOTS PLAYER",
+    "description": "Contains 1 Team of the Season player from the Rest of World Team of the Season squad",
+    "name_mobile": "ROW TOTS PLAYER"
+  },
+  {
+    "id": 1030,
+    "name": "Twitch Prime Pack",
+    "description": "Contains 4 Gold Rare Players, 1 with minimum OVR of 86",
+    "name_mobile": "Twitch Prime Pack"
+  },
+  {
+    "id": 1031,
+    "name": "TWITCH PRIME AUGUST PACK",
+    "description": "Contains 1 Player Pick with a min OVR 87+, and 2 Rare Gold players",
+    "name_mobile": "TWITCH PRIME AUGUST PACK"
+  },
+  {
+    "id": 2010,
+    "name": "ULTIMATE FUT CHAMPIONS PACK",
+    "description": "Guarantees 44 exclusive FUT Champions versions of Team of the Week players from October!",
+    "name_mobile": "ULTIMATE FUT CHAMPIONS"
+  },
+  {
+    "id": 2011,
+    "name": "PREMIUM FUT CHAMPIONS PACK",
+    "description": "Guarantees 12 exclusive FUT Champions versions of Team of the Week players from October!",
+    "name_mobile": "PREMIUM FUT CHAMPIONS"
+  },
+  {
+    "id": 2012,
+    "name": "GOLD FUT CHAMPIONS PACK",
+    "description": "Guarantees 3 exclusive FUT Champions versions of Team of the Week players from October!",
+    "name_mobile": "GOLD FUT CHAMPIONS"
+  },
+  {
+    "id": 2013,
+    "name": "SILVER FUT CHAMPIONS PACK",
+    "description": "Guarantees 1 exclusive FUT Champions version of a Team of the Week player from October!",
+    "name_mobile": "SILVER FUT CHAMPIONS"
+  },
+  {
+    "id": 2014,
+    "name": "BRONZE FUT CHAMPIONS PACK",
+    "description": "Guarantees 1 exclusive FUT Champions version of a Team of the Week player from October!",
+    "name_mobile": "BRONZE FUT CHAMPIONS"
+  },
+  {
+    "id": 2015,
+    "name": "ULTIMATE FUT CHAMPIONS PACK",
+    "description": "Guarantees 44 exclusive FUT Champions versions of Team of the Week players from November!",
+    "name_mobile": "ULTIMATE FUT CHAMPIONS"
+  },
+  {
+    "id": 2016,
+    "name": "PREMIUM FUT CHAMPIONS PACK",
+    "description": "Guarantees 12 exclusive FUT Champions versions of Team of the Week players from November!",
+    "name_mobile": "PREMIUM FUT CHAMPIONS"
+  },
+  {
+    "id": 2017,
+    "name": "GOLD FUT CHAMPIONS PACK",
+    "description": "Guarantees 3 exclusive FUT Champions versions of Team of the Week players from November!",
+    "name_mobile": "GOLD FUT CHAMPIONS"
+  },
+  {
+    "id": 2018,
+    "name": "SILVER FUT CHAMPIONS PACK",
+    "description": "Guarantees 1 exclusive FUT Champions version of a Team of the Week player from November!",
+    "name_mobile": "SILVER FUT CHAMPIONS"
+  },
+  {
+    "id": 2019,
+    "name": "BRONZE FUT CHAMPIONS PACK",
+    "description": "Guarantees 1 exclusive FUT Champions version of a Team of the Week player from November!",
+    "name_mobile": "BRONZE FUT CHAMPIONS"
+  },
+  {
+    "id": 2080,
+    "name": "ULTIMATE FUT CHAMPIONS PACK",
+    "description": "Guarantees an Icon and 44 exclusive FUT Champions versions of Team of the Week players from October!",
+    "name_mobile": "ULTIMATE FUT CHAMPIONS"
+  },
+  {
+    "id": 2081,
+    "name": "ULTIMATE FUT CHAMPIONS PACK",
+    "description": "Guarantees an Icon and 44 exclusive FUT Champions versions of Team of the Week players from November!",
+    "name_mobile": "ULTIMATE FUT CHAMPIONS"
+  },
+  {
+    "id": 2200,
+    "name": "JUMBO PREMIUM GOLD PACK",
+    "description": "Double the size of a Premium Gold Pack with an extra Rare! A mix of 24 Gold items, including players and consumables, 7 Rares.",
+    "name_mobile": "PREMIUM GOLD JUMBO"
+  },
+  {
+    "id": 2201,
+    "name": "UEFA CHAMPIONS LEAGUE GOLD PLAYER PICK",
+    "description": "Includes a Player Pick with a selection of five untradeable gold players from the UEFA Champions League group stage, of which you can choose one.",
+    "name_mobile": "UEFA CHAMPIONS LEAGUE GOLD PLAYER PICK"
+  },
+  {
+    "id": 2202,
+    "name": "GOLD REWARD PACK",
+    "description": "A mix of 4 items, all Gold with at least 1 player.",
+    "name_mobile": "GOLD REWARD PACK"
+  },
+  {
+    "id": 2203,
+    "name": "SOUNDTRACK ARTIST KITS PACK",
+    "description": "Includes 5 custom FUT kits created by EA SPORTS™ FIFA soundtrack artists.",
+    "name_mobile": "KITS PACK"
+  },
+  {
+    "id": 2204,
+    "name": "LOAN CRISTIANO RONALDO PACK",
+    "description": "Includes Cristiano Ronaldo on loan for 7 matches.",
+    "name_mobile": "LOAN C. RONALDO"
+  },
+  {
+    "id": 2205,
+    "name": "LOAN NEYMAR PACK",
+    "description": "Includes Neymar on loan for 7 matches.",
+    "name_mobile": "LOAN NEYMAR PACK"
+  },
+  {
+    "id": 2206,
+    "name": "COCA-COLA® PACK",
+    "description": "An exclusive pack that guarantees a Coca-Cola® themed kit.",
+    "name_mobile": "COCA-COLA® PACK"
+  },
+  {
+    "id": 2207,
+    "name": "UEFA CHAMPIONS LEAGUE GOLD PLAYER PACK",
+    "description": "Includes one untradeable gold player from the UEFA Champions League group stage.",
+    "name_mobile": "UEFA CHAMPIONS LEAGUE GOLD PLAYER PACK"
+  },
+  {
+    "id": 2208,
+    "name": "ONE LOAN ICON PACK",
+    "description": "An exclusive pack featuring 1 Icon on loan for 3 matches.",
+    "name_mobile": "ONE LOAN ICON PACK"
+  },
+  {
+    "id": 2209,
+    "name": "POWERADE® PACK",
+    "description": "An exclusive pack that guarantees a Powerade® themed kit.",
+    "name_mobile": "POWERADE® PACK"
+  },
+  {
+    "id": 2210,
+    "name": "GOLD PACK",
+    "description": "Great value for finding top-rated players. A mix of 12 Gold items, including players and consumables, 1 Rare.",
+    "name_mobile": "GOLD PACK"
+  },
+  {
+    "id": 2211,
+    "name": "LOAN PLAYER PICK",
+    "description": "Grants a Player Pick with a selection of 5 loan players, of which you can choose one.",
+    "name_mobile": "LOAN PLAYER PICK"
+  },
+  {
+    "id": 2212,
+    "name": "RARE PLAYERS PACK",
+    "description": "The most unique top-rated players, all in a single pack! Includes 12 items, all players, all Gold, all Rare.",
+    "name_mobile": "RARE PLAYERS PACK"
+  },
+  {
+    "id": 2213,
+    "name": "3 LOAN ICONS PACK",
+    "description": "Grants three different Icon players on loan for 5 matches.",
+    "name_mobile": "3 LOAN ICONS PACK"
+  },
+  {
+    "id": 2214,
+    "name": "FRENCH CONTENT PACK",
+    "description": "A unique pack containing a Player Pick with top-rated French players on loan, along with the France national team home and away kits.",
+    "name_mobile": "FRENCH CONTENT PACK"
+  },
+  {
+    "id": 3100,
+    "name": "FUT LIVE 1 PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "FUT LIVE 1 PACK"
+  },
+  {
+    "id": 3101,
+    "name": "FUT LIVE 2 PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "FUT LIVE 2 PACK"
+  },
+  {
+    "id": 3102,
+    "name": "FUT LIVE 3 PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "FUT LIVE 3 PACK"
+  },
+  {
+    "id": 3103,
+    "name": "FUT LIVE 4 PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "FUT LIVE 4 PACK"
+  },
+  {
+    "id": 3104,
+    "name": "CASTRO'S PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "CASTRO'S PACK"
+  },
+  {
+    "id": 3105,
+    "name": "SPENCER'S PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "SPENCER'S PACK"
+  },
+  {
+    "id": 3106,
+    "name": "CASTRO PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "CASTRO PACK"
+  },
+  {
+    "id": 3107,
+    "name": "SPENCER PACK",
+    "description": "A special pack for FUT Live.",
+    "name_mobile": "SPENCER PACK"
+  },
+  {
+    "id": 4000,
+    "name": "PLAYER PICK PACK 1",
+    "description": "Includes 12 items, with a guaranteed Player Pick of high rated Premier League forwards.",
+    "name_mobile": "PLAYER PICK PACK 1"
+  },
+  {
+    "id": 4001,
+    "name": "PLAYER PICK PACK 2",
+    "description": "Includes 12 items, with a guaranteed Player Pick of five top rated players.",
+    "name_mobile": "PLAYER PICK PACK 2"
+  },
+  {
+    "id": 4002,
+    "name": "PLAYER PICK PACK 3",
+    "description": "Includes 12 items, with a guaranteed Player Pick of three high rated LaLiga defenders",
+    "name_mobile": "PLAYER PICK PACK 3"
+  },
+  {
+    "id": 4003,
+    "name": "PLAYER PICK PACK 4",
+    "description": "Includes 12 items, with a guaranteed Player Pick of two great players!",
+    "name_mobile": "PLAYER PICK PACK 4"
+  },
+  {
+    "id": 4007,
+    "name": "ONES TO WATCH PACK",
+    "description": "Contains a Player Pick with Ones to Watch players.",
+    "name_mobile": "ONES TO WATCH PACK"
+  },
+  {
+    "id": 4008,
+    "name": "ICON PACK",
+    "description": "Contains a Player Pick with Icon players.",
+    "name_mobile": "ICON PACK"
+  },
+  {
+    "id": 4009,
+    "name": "UEFA PACK",
+    "description": "Contains a Player Pick with UEFA players.",
+    "name_mobile": "UEFA PACK"
+  },
+  {
+    "id": 4010,
+    "name": "UEFA PACK II",
+    "description": "Contains a Player Pick with UEFA players.",
+    "name_mobile": "UEFA PACK II"
+  },
+  {
+    "id": 5704,
+    "name": "WELCOME PACK",
+    "description": "Welcome to FUT! Contains 1 Loan Icon Player Pick, 1 Loan Team of the Week Player, 1 Loan UEFA Champions League Player Pick, and 1 82-85 OVR Rare Gold Player Pick",
+    "name_mobile": "WELCOME PACK"
+  },
+  {
+    "id": 5800,
+    "name": "TOTW PLAYER",
+    "description": "Guarantees 1 currently active Team of the Week Player.",
+    "name_mobile": "TOTW PLAYER"
+  },
+  {
+    "id": 5801,
+    "name": "TOTW Player 81+",
+    "description": "Contains 1 TOTW player from all weeks with a minimum OVR of 81",
+    "name_mobile": "TOTW Player 81+"
+  },
+  {
+    "id": 5802,
+    "name": "TOTW Player 84+",
+    "description": "Contains 1 TOTW player from all weeks with a minimum OVR of 84",
+    "name_mobile": "TOTW Player 84+"
+  },
+  {
+    "id": 5809,
+    "name": "TOTS Player Pack",
+    "description": "Contains 1 TOTS Player from PL,Bundesliga,LaLiga,Serie A, or Ligue 1",
+    "name_mobile": "TOTS Player Pack"
+  },
+  {
+    "id": 5810,
+    "name": "FUT FUTURESTARS PACK",
+    "description": "Contains 1 FUT Future Stars player",
+    "name_mobile": "FUT FUTURESTARS PACK"
+  },
+  {
+    "id": 5811,
+    "name": "PRIME ICON PLAYER",
+    "description": "Contains 1 Prime Icon player",
+    "name_mobile": "PRIME ICON PLAYER"
+  },
+  {
+    "id": 5812,
+    "name": "ICON PLAYER",
+    "description": "Contains 1 Base, Mid, or Prime Icon",
+    "name_mobile": "ICON PLAYER"
+  },
+  {
+    "id": 5813,
+    "name": "THE FIFA 19 ULTIMATE TEAM",
+    "description": "Contains 7 of the top FUT Players from the season, on a 10 match loan.",
+    "name_mobile": "THE FIFA 19 ULTIMATE TEAM"
+  },
+  {
+    "id": 5814,
+    "name": "THE FIFA 19 ULTIMATE TEAM",
+    "description": "Contains 7 of the top FUT Players from the season, each on a 10 match loan.",
+    "name_mobile": "THE FIFA 19 ULTIMATE TEAM"
+  },
+  {
+    "id": 5815,
+    "name": "THE FIFA 19 ULTIMATE TEAM",
+    "description": "Contains 7 of the top FUT Players from the season, each on a 10 match loan.",
+    "name_mobile": "THE FIFA 19 ULTIMATE TEAM"
+  }
+]
