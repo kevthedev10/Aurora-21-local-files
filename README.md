@@ -1,4 +1,4 @@
-# Aurora 21 Local FUT by kevin (antirevival)
+# 21 Local FUT by kevin (antirevival)
 join discord for more info : https://discord.gg/ZqmwmpNUF3
 
 ## Components
